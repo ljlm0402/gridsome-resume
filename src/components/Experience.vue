@@ -6,12 +6,23 @@
       <!-- 안랩 -->
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">Ahnlab </h3>
-          <div class="subheading mb-3">Foobar studios</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3 class="mb-0">Ahnlab (주)안랩</h3>
+          <div class="subheading mb-3">ICM</div>
+          <p>사내 내부 서비스 개발</p>
+          <p>
+            <img class="resume-stack" src="@/assets/images/experience/typescript.png">
+            <img class="resume-stack" src="@/assets/images/experience/javascript.png">
+            <img class="resume-stack" src="@/assets/images/experience/nodejs.png">
+            <img class="resume-stack" src="@/assets/images/experience/vue.png">
+            <img class="resume-stack" src="@/assets/images/experience/sass.png">
+            <img class="resume-stack" src="@/assets/images/experience/postgresql.png">
+            <img class="resume-stack" src="@/assets/images/experience/mongodb.png">
+            <img class="resume-stack" src="@/assets/images/experience/docker.png">
+            <img class="resume-stack" src="@/assets/images/experience/kubernetes.png">
+          </p>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">September 2012 - May 2014</span>
+          <span class="text-primary">2020. 03 ~ 재직중</span>
         </div>
       </div>
 

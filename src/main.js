@@ -3,11 +3,11 @@ import VueScrollTo from 'vue-scrollto'
 import BootstrapVue from 'bootstrap-vue'
 import './assets/styles/main.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTrophy, faCheck, faLink } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faFacebook, faNpm, faDev, faStackpath, faNodeJs} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faGithub, faFacebook, faNpm, faDev, faStackpath, faNodeJs} from '@fortawesome/free-brands-svg-icons'
+import { faLink, faCheck, faDownload, faStar, faShare } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faLink, faStackpath, faGithub, faDev, faFacebook, faTrophy, faNpm, faCheck, faNodeJs)
+library.add(faGithub, faNpm, faDev, faLink, faStackpath, faFacebook, faNodeJs, faCheck, faDownload, faStar, faShare)
 
 export default function (Vue, { 
   head,

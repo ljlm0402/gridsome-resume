@@ -1,13 +1,12 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c6a0b67d-7f94-4676-acd9-03ad7716ee98/deploy-status)](https://app.netlify.com/sites/gridsome-starter-resume/deploys)
-[![Greenkeeper badge](https://badges.greenkeeper.io/lokecarlsson/gridsome-starter-resume.svg)](https://greenkeeper.io/)
+# Gridsome Resume
 
-# Gridsome starter resume
+This is a starter project for Gridsome that helps you set up a resume quick and easy. 
 
-This is a starter project for Gridsome that helps you set up a resume quick and easy. It utilizes Bootstrap that is well known for powerful styling and layout.
+It utilizes Bootstrap that is well known for powerful styling and layout.
 
-### Demo
+### Site
 
-[https://gridsome-starter-resume.loke.dev](https://gridsome-starter-resume.loke.dev)
+[https://kyungmin-resume.surge.sh](https://kyungmin-resume.surge.sh)
 
 ### Features
 
@@ -19,15 +18,19 @@ This starter project includes some of the latest powerful technologies.
 - **Google Analytics -** Just add your tracking ID in the config.
 - **Sitemap generator -** Automatically generates a sitemap.xml file.
 
-### Getting started
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LokeCarlsson/gridsome-starter-resume)
-
 **or manually follow the guide below**
 
 If you haven't already installed Gridsome CLI: `npm install --global @gridsome/cli`
 
-1. `gridsome create my-gridsome-site https://github.com/LokeCarlsson/gridsome-starter-resume.git`
+1. `gridsome create my-gridsome-site https://github.com/ljlm0402/gridsome-resume.git`
 2. `cd my-gridsome-site` to open folder
 3. `yarn dev` to start local dev server at `http://localhost:8080`
 4. Happy hacking 🎉🙌
+
+**Surge Guide**
+
+1. list all domains you have access to: `surge list`
+
+2. Usage: `surge`
+
+3. tear down a published project: `surge teardown <pulished project>`

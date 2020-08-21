@@ -10,8 +10,8 @@
       <Experience/>
       <hr class="m-0">
       <Project/>
-      <hr class="m-0">
-      <Community/>
+      <!-- <hr class="m-0">
+      <Community/> -->
     </div>
   </Layout>
 </template>

@@ -13,7 +13,7 @@
       <p class="lead mb-5">
         해당 포트폴리오 사이트 Repo :
         <a
-          href="https://github.com/ljlm0402"
+          href="https://github.com/ljlm0402/gridsome-resume"
           target="_blank"
           rel="noopener noreferrer"
         >Here</a>.
