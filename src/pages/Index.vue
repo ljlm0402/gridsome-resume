@@ -34,8 +34,8 @@ export default {
     Community
   },
   metaInfo: {
-    title: "Gridsome Starter Resume",
-    titleTemplate: "%s - Create your resume quick and easy!"
+    title: "임경민",
+    titleTemplate: "%s - Web Developer"
   }
 };
 </script>
