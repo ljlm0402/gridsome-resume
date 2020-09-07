@@ -5,7 +5,7 @@
       <span class="d-none d-lg-block">
         <g-image
           alt="Profile"
-          src="@/assets/images/profile.jpg"
+          src="@/assets/images/profile.png"
           class="img-fluid img-profile rounded-circle mx-auto mb-2"
         />
       </span>

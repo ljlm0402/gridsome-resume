@@ -36,10 +36,10 @@
       <div class="subheading mb-3">Workflow</div>
       <ul class="fa-ul mb-0">
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Language : TypeScript, JavaScript를 능숙하게 다룰수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Language : JavaScript, TypeScript를 능숙하게 다룰수 있습니다.
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>FrontEnd : Angular, Vue 경험이 있으며, Front를 개발 할 수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>FrontEnd : AngularJs, VueJs 경험이 있으며, Front를 개발 할 수 있습니다.
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']"/>BackEnd : Express, Nest 등 경험이 있으며, RESTful API를 개발 할 수 있습니다.
@@ -51,7 +51,7 @@
           <font-awesome class="fa-li" :icon="['fas', 'check']"/>CI / CD : Github Action, Trais CI 등 경험이 있으며, 테스팅 및 자동화 배포를 할 수 있습니다.
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cloud : AWS 경험이 풍부하며, Cluster(ECS), Kubernetes(EKS) 등 최적화된 서버를 구축 할 수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']"/>Cloud : AWS 경험이 풍부하며, Cluster(ECS), Kubernetes(EKS) 등 최적화 된 서버를 구축 할 수 있습니다.
         </li>
       </ul>
     </div>

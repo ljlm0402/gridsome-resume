@@ -8,15 +8,18 @@
         <a href="mailto:ljlm0402@gmail.com">ljlm0402@gmail.com</a>
       </div>
       <p class="lead mb-5">
-        안녕하세요. 자바스크립트, 타입스트립트 개발자 임경민입니다.
+        자바스크립트, 타입스트립트 언어를 사용하여 개발하는 임경민입니다. 
+        <img src="@/assets/images/wave.gif" width="30px" />
       </p>
       <p class="lead mb-5">
-        해당 포트폴리오 사이트 Repo :
+        포트폴리오 사이트 저장소 :
         <a
           href="https://github.com/ljlm0402/gridsome-resume"
           target="_blank"
           rel="noopener noreferrer"
-        >Here</a>.
+        >
+          <img src="https://img.shields.io/static/v1?label=gridsome-resume&message=%20&color=000605&logo=github&logoColor=white&labelColor=000605">
+        </a>
       </p>
       <div class="social-icons">
         <a href="https://github.com/ljlm0402" target="_blank" rel="noopener noreferrer">
