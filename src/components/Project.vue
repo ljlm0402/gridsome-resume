@@ -33,7 +33,7 @@
       <!-- Obejct Query Builder -->
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <a href="https://github.com/ƒljlm0402/object-querybuilder">
+          <a href="https://github.com/ljlm0402/object-querybuilder">
             <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=object-querybuilder" />
           </a>
         </div>
