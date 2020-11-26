@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
-    <Nav/>
-    <slot/>
+    <Nav />
+    <slot />
   </div>
 </template>
 
@@ -10,8 +10,8 @@ import Nav from "../components/Nav";
 
 export default {
   components: {
-    Nav
-  }
+    Nav,
+  },
 };
 </script>
 

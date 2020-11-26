@@ -1,5 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav
+    class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+    id="sideNav"
+  >
     <div v-on:click.prevent="$scrollTo('#about')" class="navbar-brand">
       <span class="d-block d-lg-none">임경민</span>
       <span class="d-none d-lg-block">
@@ -17,16 +20,24 @@
           <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')"
+            >Interests</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')"
+            >Skills</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experience</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')"
+            >Experience</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#project')">Project</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#project')"
+            >Project</a
+          >
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#community')">Community</a>

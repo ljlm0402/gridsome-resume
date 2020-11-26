@@ -1,14 +1,15 @@
 <template>
-  <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+  <section
+    class="resume-section p-3 p-lg-5 d-flex align-items-center"
+    id="about"
+  >
     <div class="w-100">
-      <h1 class="mb-0">
-        임경민
-      </h1>
+      <h1 class="mb-0">임경민</h1>
       <div class="subheading mb-5">
         <a href="mailto:ljlm0402@gmail.com">ljlm0402@gmail.com</a>
       </div>
       <p class="lead mb-5">
-        자바스크립트, 타입스트립트 언어를 사용하여 개발하는 임경민입니다. 
+        자바스크립트, 타입스트립트 언어를 사용하여 개발하는 임경민입니다.
         <img src="@/assets/images/wave.gif" width="30px" />
       </p>
       <p class="lead mb-5">
@@ -18,24 +19,46 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="https://img.shields.io/static/v1?label=gridsome-resume&message=%20&color=000605&logo=github&logoColor=white&labelColor=000605">
+          <img
+            src="https://img.shields.io/static/v1?label=gridsome-resume&message=%20&color=000605&logo=github&logoColor=white&labelColor=000605"
+          />
         </a>
       </p>
       <div class="social-icons">
-        <a href="https://github.com/ljlm0402" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'github']"/>
+        <a
+          href="https://github.com/ljlm0402"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <font-awesome :icon="['fab', 'github']" />
         </a>
-        <a href="https://www.npmjs.com/~limkyungmin" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'npm']"/>
+        <a
+          href="https://www.npmjs.com/~limkyungmin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <font-awesome :icon="['fab', 'npm']" />
         </a>
-        <a href="https://ljlm0402.netlify.app/" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'dev']"/>
+        <a
+          href="https://ljlm0402.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <font-awesome :icon="['fab', 'dev']" />
         </a>
-        <a href="https://ljlm0402.github.io/" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fas', 'link']"/>
+        <a
+          href="https://ljlm0402.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <font-awesome :icon="['fas', 'link']" />
         </a>
-        <a href="https://stackshare.io/kyungmin/tech-stack" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'stackpath']"/>
+        <a
+          href="https://stackshare.io/kyungmin/tech-stack"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <font-awesome :icon="['fab', 'stackpath']" />
         </a>
       </div>
     </div>

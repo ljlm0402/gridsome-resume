@@ -1,6 +1,6 @@
 # Gridsome Resume
 
-This is a starter project for Gridsome that helps you set up a resume quick and easy. 
+This is a starter project for Gridsome that helps you set up a resume quick and easy.
 
 It utilizes Bootstrap that is well known for powerful styling and layout.
 

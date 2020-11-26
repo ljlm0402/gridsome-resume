@@ -1,15 +1,15 @@
 <template>
   <Layout>
     <div class="container-fluid p-0">
-      <About/>
-      <hr class="m-0">
-      <Interests/>
-      <hr class="m-0">
-      <Skills/>
-      <hr class="m-0">
-      <Experience/>
-      <hr class="m-0">
-      <Project/>
+      <About />
+      <hr class="m-0" />
+      <Interests />
+      <hr class="m-0" />
+      <Skills />
+      <hr class="m-0" />
+      <Experience />
+      <hr class="m-0" />
+      <Project />
       <!-- <hr class="m-0">
       <Community/> -->
     </div>
@@ -31,12 +31,12 @@ export default {
     Project,
     Skills,
     Interests,
-    Community
+    Community,
   },
   metaInfo: {
     title: "임경민",
-    titleTemplate: "%s - Web Developer"
-  }
+    titleTemplate: "%s - Web Developer",
+  },
 };
 </script>
 
