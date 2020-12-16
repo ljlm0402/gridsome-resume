@@ -4,6 +4,11 @@ section.resume-section {
   max-width: 75rem;
 
   .resume-item {
+    border-image-slice: 1;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    border-bottom: 0.2rem solid #FFE179 !important;
+
     .resume-date {
       min-width: none;
     }

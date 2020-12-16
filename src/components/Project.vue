@@ -7,10 +7,8 @@
       <h2 class="mb-5">Project</h2>
 
       <!-- TypeScript Express Starter -->
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
-        <div class="resume-content">
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div>
           <a href="https://github.com/ljlm0402/typescript-express-starter">
             <img
               align="center"
@@ -21,10 +19,8 @@
       </div>
 
       <!-- TypeScript Vue Starter -->
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
-        <div class="resume-content">
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div>
           <a href="https://github.com/ljlm0402/typescript-vue-starter">
             <img
               align="center"
@@ -35,10 +31,8 @@
       </div>
 
       <!-- Vuex State Storeage Sync -->
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
-        <div class="resume-content">
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div>
           <a href="https://github.com/ljlm0402/vuex-state-storage-sync">
             <img
               align="center"
@@ -49,10 +43,8 @@
       </div>
 
       <!-- Obejct Query Builder -->
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
-        <div class="resume-content">
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div>
           <a href="https://github.com/ljlm0402/object-querybuilder">
             <img
               align="center"
@@ -63,10 +55,8 @@
       </div>
 
       <!-- TypeScript GitHub Clone -->
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
-        <div class="resume-content">
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div>
           <a href="https://github.com/ljlm0402/tsghc">
             <img
               align="center"
