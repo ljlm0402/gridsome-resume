@@ -5,9 +5,9 @@ import './assets/styles/main.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faGithub, faFacebook, faNpm, faDev, faStackpath, faNodeJs } from '@fortawesome/free-brands-svg-icons'
-import { faLink, faCheck, faDownload, faStar, faShare } from '@fortawesome/free-solid-svg-icons'
+import { faLink, faCheck, faShare } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faGithub, faNpm, faDev, faLink, faStackpath, faFacebook, faNodeJs, faCheck, faDownload, faStar, faShare)
+library.add(faGithub, faNpm, faDev, faLink, faStackpath, faFacebook, faNodeJs, faCheck, faShare)
 
 export default function (Vue, {
   head,

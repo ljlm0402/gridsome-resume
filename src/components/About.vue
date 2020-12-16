@@ -9,7 +9,8 @@
         <a href="mailto:ljlm0402@gmail.com">ljlm0402@gmail.com</a>
       </div>
       <p class="lead mb-5">
-        자바스크립트, 타입스트립트 언어를 사용하여 개발하는 임경민입니다.
+        <span style="color: #eed81a">JavaScript</span>,
+        <span style="color: #2f74bf">TypeScript</span> 개발자입니다.
         <img src="@/assets/images/wave.gif" width="30px" />
       </p>
       <p class="lead mb-5">
@@ -18,6 +19,7 @@
           href="https://github.com/ljlm0402/gridsome-resume"
           target="_blank"
           rel="noopener noreferrer"
+          title="Portfolio"
         >
           <img
             src="https://img.shields.io/static/v1?label=gridsome-resume&message=%20&color=000605&logo=github&logoColor=white&labelColor=000605"
@@ -29,6 +31,7 @@
           href="https://github.com/ljlm0402"
           target="_blank"
           rel="noopener noreferrer"
+          title="GitHub"
         >
           <font-awesome :icon="['fab', 'github']" />
         </a>
@@ -36,6 +39,7 @@
           href="https://www.npmjs.com/~limkyungmin"
           target="_blank"
           rel="noopener noreferrer"
+          title="NPM Packages"
         >
           <font-awesome :icon="['fab', 'npm']" />
         </a>
@@ -43,6 +47,7 @@
           href="https://ljlm0402.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
+          title="Tech Blog"
         >
           <font-awesome :icon="['fab', 'dev']" />
         </a>
@@ -50,6 +55,7 @@
           href="https://ljlm0402.github.io/"
           target="_blank"
           rel="noopener noreferrer"
+          title="GitHub Pages"
         >
           <font-awesome :icon="['fas', 'link']" />
         </a>
@@ -57,6 +63,7 @@
           href="https://stackshare.io/kyungmin/tech-stack"
           target="_blank"
           rel="noopener noreferrer"
+          title="Tech Stack"
         >
           <font-awesome :icon="['fab', 'stackpath']" />
         </a>

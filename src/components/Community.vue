@@ -5,33 +5,31 @@
   >
     <div class="w-100">
       <h2 class="mb-5">Community</h2>
+
+      <h3>DEVLOG</h3>
+      <p>다양한 개발지식을 공유하는 오픈 커뮤니티를 운영하고있습니다.</p>
       <ul class="fa-ul mb-0">
         <li>
-          <font-awesome
-            class="fa-li text-warning"
-            :icon="['fas', 'trophy']"
-          />CSS Design Awards
+          <a
+            href="https://www.facebook.com/groups/765872100510405/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="facebook link"
+          >
+            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />FaceBook
+            Link
+          </a>
         </li>
         <li>
-          <font-awesome
-            class="fa-li text-warning"
-            :icon="['fas', 'trophy']"
-          />Shopify Commerce Awards
-        </li>
-        <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']" />1
-          <sup>st</sup>
-          Place - Foobar - Emerging Tech Competition 2012
-        </li>
-        <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']" />1
-          <sup>st</sup>
-          Place - Foo Bar High School - Hackathon 2010
-        </li>
-        <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']" />3
-          <sup>rd</sup>
-          Place - Foo Bar High School - Hackathon 2009
+          <a
+            href="https://open.kakao.com/o/gJcENvHb"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="kakaoopen link"
+          >
+            <font-awesome class="fa-li" :icon="['fas', 'share']" />KakaoOpen
+            Link
+          </a>
         </li>
       </ul>
     </div>

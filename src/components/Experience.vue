@@ -13,7 +13,7 @@
         <div class="resume-content">
           <h3 class="mb-0">Ahnlab .Inc (주)안랩</h3>
           <div class="subheading mb-3">ICM</div>
-          <p>사내 서비스 개발</p>
+          <p>서버 중앙 모니터링 및 통합 관리 솔루션</p>
           <p>
             <img
               class="resume-stack"
@@ -56,6 +56,24 @@
               src="@/assets/images/experience/bitbucket.png"
             />
           </p>
+
+          <ul>
+            <li>FrontEnd : Vue.Js를 사용하여 프론트 개발</li>
+            <li>
+              BackEnd : Express 사용하여, Auth 서버 개발 (PostgreSQL 연동)
+            </li>
+            <li>
+              Container Orchestration : Kubernetes 사용하여, 컨테이너 관리
+            </li>
+          </ul>
+          <details>
+            <summary>Architecture</summary>
+            <img
+              class="architecture"
+              src="@/assets/images/architecture/ahnlab.png"
+            />
+          </details>
+          <br />
         </div>
         <div class="resume-date text-md-right">
           <span class="text-primary">2020. 03 ~</span>
@@ -112,34 +130,54 @@
               src="@/assets/images/experience/github.png"
             />
           </p>
+          <ul>
+            <li>FrontEnd : Angular를 사용하여 프론트 개발</li>
+            <li>BackEnd : Express 사용하여, API 서버 개발 (MySQL 연동)</li>
+            <li>
+              Server : Web Server(Nginx), WAS(Node Js, HTTP, HTTPS(ACM)), AWS
+            </li>
+            <li>Load Balancing : ALB, Route53</li>
+            <li>Storage : S3, CloudFront(CDN)</li>
+            <li>Container Orchestration : Docker 사용하여, 컨테이너 관리</li>
+            <li>CI / CD : GitHub WebHook, CodePipeLine</li>
+            <li>Monitoring : CloudWatch</li>
+          </ul>
+          <details>
+            <summary>Architecture</summary>
+            <img
+              class="architecture"
+              src="@/assets/images/architecture/fooding.png"
+            />
+          </details>
+          <br />
           <p>
+            <!-- 메인 홈페이지 -->
             <iframe
               class="resume-movie"
               src="https://www.youtube.com/embed/jQ1YNnLlUKs"
             ></iframe>
           </p>
-          <!-- 메인 홈페이지 -->
           <p>
+            <!-- 관리자 홈페이지 -->
             <iframe
               class="resume-movie"
               src="https://www.youtube.com/embed/jeXTYYE-4JU"
             ></iframe>
           </p>
-          <!-- 관리자 홈페이지 -->
           <p>
+            <!-- 배송기사 앱 -->
             <iframe
               class="resume-movie"
               src="https://www.youtube.com/embed/-IUGiugc8kM"
             ></iframe>
           </p>
-          <!-- 배송기사 앱 -->
           <p>
+            <!-- 알림 톡 -->
             <iframe
               class="resume-movie"
               src="https://www.youtube.com/embed/hcjFL6LDWYQ"
             ></iframe>
           </p>
-          <!-- 알림 톡 -->
         </div>
         <div class="resume-date text-md-right">
           <span class="text-primary">2018. 10 ~ 2020. 03</span>
@@ -180,6 +218,17 @@
               src="@/assets/images/experience/raspberry-pi.png"
             />
           </p>
+          <ul>
+            <li>FrontEnd : HTML(EJS), CSS, jQuery 사용하여 프론트 개발</li>
+            <li>BackEnd : Express 사용하여, API 서버 개발 (MariaDB 연동)</li>
+            <li>Server : WAS(Node Js, HTTP), Tinker Board(Rasbian)</li>
+            <li>
+              Load Balancing : PM2(Advanced Node Js Process Manager (Cluster))
+            </li>
+            <li>Storage : S3, CloudFront(CDN)</li>
+            <li>Monitoring : WhaTap</li>
+          </ul>
+          <br />
           <p>
             <iframe
               class="resume-movie"

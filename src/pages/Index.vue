@@ -10,27 +10,27 @@
       <Experience />
       <hr class="m-0" />
       <Project />
-      <!-- <hr class="m-0">
-      <Community/> -->
+      <hr class="m-0" />
+      <Community />
     </div>
   </Layout>
 </template>
 
 <script>
-import About from "../components/About";
-import Experience from "../components/Experience";
-import Project from "../components/Project";
-import Skills from "../components/Skills";
-import Interests from "../components/Interests";
-import Community from "../components/Community";
+import About from "@/components/About";
+import Interests from "@/components/Interests";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Project from "@/components/Project";
+import Community from "@/components/Community";
 
 export default {
   components: {
     About,
+    Interests,
+    Skills,
     Experience,
     Project,
-    Skills,
-    Interests,
     Community,
   },
   metaInfo: {

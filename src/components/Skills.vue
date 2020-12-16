@@ -34,7 +34,7 @@
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />FrontEnd :
-          AngularJs, VueJs 경험이 있으며, Front를 개발 할 수 있습니다.
+          Angular, VueJs 실무 경험이 있으며, Front를 개발 할 수 있습니다.
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />BackEnd :
@@ -47,7 +47,7 @@
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />CI / CD :
-          Github Action, Trais CI 등 경험이 있으며, 테스팅 및 자동화 배포를 할
+          Github Action, Travis CI 등 경험이 있으며, 테스팅 및 자동화 배포를 할
           수 있습니다.
         </li>
         <li>
