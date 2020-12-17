@@ -66,7 +66,7 @@
               Container Orchestration : Kubernetes 사용하여, 컨테이너 관리
             </li>
           </ul>
-          <details>
+          <details open>
             <summary>Architecture</summary>
             <img
               class="architecture"
@@ -142,7 +142,7 @@
             <li>CI / CD : GitHub WebHook, CodePipeLine</li>
             <li>Monitoring : CloudWatch</li>
           </ul>
-          <details>
+          <details open>
             <summary>Architecture</summary>
             <img
               class="architecture"
