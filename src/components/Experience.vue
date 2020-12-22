@@ -150,34 +150,52 @@
             />
           </details>
           <br />
-          <p>
-            <!-- 메인 홈페이지 -->
-            <iframe
-              class="resume-movie"
-              src="https://www.youtube.com/embed/jQ1YNnLlUKs"
-            ></iframe>
-          </p>
-          <p>
-            <!-- 관리자 홈페이지 -->
-            <iframe
-              class="resume-movie"
-              src="https://www.youtube.com/embed/jeXTYYE-4JU"
-            ></iframe>
-          </p>
-          <p>
-            <!-- 배송기사 앱 -->
-            <iframe
-              class="resume-movie"
-              src="https://www.youtube.com/embed/-IUGiugc8kM"
-            ></iframe>
-          </p>
-          <p>
-            <!-- 알림 톡 -->
-            <iframe
-              class="resume-movie"
-              src="https://www.youtube.com/embed/hcjFL6LDWYQ"
-            ></iframe>
-          </p>
+          <div class="video">
+            <div class="video-container">
+              <!-- 메인 홈페이지 -->
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/jQ1YNnLlUKs"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-container">
+              <!-- 관리자 홈페이지 -->
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/jeXTYYE-4JU"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-container">
+              <!-- 배송기사 앱 -->
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/-IUGiugc8kM"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-container">
+              <!-- 알림 톡 -->
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/hcjFL6LDWYQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         </div>
         <div class="resume-date text-md-right">
           <span class="text-primary">2018. 10 ~ 2020. 03</span>
@@ -228,14 +246,27 @@
             <li>Storage : S3, CloudFront(CDN)</li>
             <li>Monitoring : WhaTap</li>
           </ul>
+          <details open>
+            <summary>Architecture</summary>
+            <img
+              class="architecture"
+              src="@/assets/images/architecture/secuprime.png"
+            />
+          </details>
           <br />
-          <p>
-            <iframe
-              class="resume-movie"
-              src="https://www.youtube.com/embed/64V7ATPeeyM"
-            ></iframe>
-          </p>
-          <!-- 키오스크 화면 -->
+          <div class="video">
+            <div class="video-container">
+              <!-- 키오스크 화면 -->
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/64V7ATPeeyM"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         </div>
         <div class="resume-date text-md-right">
           <span class="text-primary">2017. 12 ~ 2018. 10</span>
