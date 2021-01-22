@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ⬇️ Checkout source code
-      - uses: actions/checkout@v1
+        uses: actions/checkout@v1
 
       - name: ⎔ Setup nodejs
         uses: actions/setup-node@v1
@@ -15,11 +15,10 @@ jobs:
           node-version: 14
 
       - name: 🏗 Install npm
-      - run: npm install -g surge
-      - run: npm install
+        run: npm install -g surge & npm install
 
       - name: 🏭 Build npm
-      - run: npm run build
+        run: npm run build
 
       - name: 💎 Deploy surge
-      - run: surge ./dist ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./dist ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
