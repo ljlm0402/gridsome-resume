@@ -35,7 +35,7 @@ export default {
   },
   metaInfo: {
     title: "임경민",
-    titleTemplate: "%s - Web Developer",
+    titleTemplate: "%s - Developer",
   },
 };
 </script>
