@@ -29,31 +29,28 @@
       <div class="subheading mb-3">Workflow</div>
       <ul class="fa-ul mb-0">
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']" />Language :
-          JavaScript, TypeScript를 능숙하게 다룰수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />
+          Language : JavaScript, TypeScript
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']" />FrontEnd :
-          Angular, VueJs 실무 경험이 있으며, Front를 개발 할 수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />
+          FrontEnd : Angular, Vue.js
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']" />BackEnd :
-          Express, Nest 등 경험이 있으며, RESTful API를 개발 할 수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />
+          BackEnd : Node.js(Express, Nest)
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']" />DataBase :
-          MySQL(SQL), MongoDB(NoSQL) 등 경험이 있으며, 설계 및 구조를 정의하며
-          조작 할 수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />
+          DataBase : MySQL(SQL), MariaDB(SQL), PostgreSQL(SQL), MongoDB(NoSQL)
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']" />CI / CD :
-          Github Action, Travis CI 등 경험이 있으며, 테스팅 및 자동화 배포를 할
-          수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />
+          CI / CD : AWS CodeBuild, Github Action, Travis CI
         </li>
         <li>
-          <font-awesome class="fa-li" :icon="['fas', 'check']" />Cloud : AWS
-          경험이 풍부하며, Cluster(ECS), Kubernetes(EKS) 등 최적화 된 서버를
-          구축 할 수 있습니다.
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />
+          Cloud : AWS - Cluster(ECS), Kubernetes(EKS)
         </li>
       </ul>
     </div>
