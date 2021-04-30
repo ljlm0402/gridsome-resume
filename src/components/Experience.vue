@@ -58,13 +58,9 @@
           </p>
 
           <ul>
-            <li>FrontEnd : Vue.Js를 사용하여 프론트 개발</li>
-            <li>
-              BackEnd : Express 사용하여, Auth 서버 개발 (PostgreSQL 연동)
-            </li>
-            <li>
-              Container Orchestration : Kubernetes 사용하여, 컨테이너 관리
-            </li>
+            <li>FrontEnd : Vue.js</li>
+            <li>BackEnd : Node.js(Express + PostgreSQL)</li>
+            <li>Container Orchestration : Kubernetes(k3s)</li>
           </ul>
           <details open>
             <summary>Architecture</summary>
@@ -131,14 +127,14 @@
             />
           </p>
           <ul>
-            <li>FrontEnd : Angular를 사용하여 프론트 개발</li>
-            <li>BackEnd : Express 사용하여, API 서버 개발 (MySQL 연동)</li>
+            <li>FrontEnd : Angular</li>
+            <li>BackEnd : Node.js(Express + MySQL)</li>
             <li>
-              Server : Web Server(Nginx), WAS(Node Js, HTTP, HTTPS(ACM)), AWS
+              Server : Web Server(Nginx), WAS(Node.js, HTTP, HTTPS(ACM)), AWS
             </li>
             <li>Load Balancing : ALB, Route53</li>
             <li>Storage : S3, CloudFront(CDN)</li>
-            <li>Container Orchestration : Docker 사용하여, 컨테이너 관리</li>
+            <li>Container Orchestration : Docker</li>
             <li>CI / CD : GitHub WebHook, CodePipeLine</li>
             <li>Monitoring : CloudWatch</li>
           </ul>
@@ -237,12 +233,10 @@
             />
           </p>
           <ul>
-            <li>FrontEnd : HTML(EJS), CSS, jQuery 사용하여 프론트 개발</li>
-            <li>BackEnd : Express 사용하여, API 서버 개발 (MariaDB 연동)</li>
-            <li>Server : WAS(Node Js, HTTP), Tinker Board(Rasbian)</li>
-            <li>
-              Load Balancing : PM2(Advanced Node Js Process Manager (Cluster))
-            </li>
+            <li>FrontEnd : HTML(EJS), CSS, jQuery</li>
+            <li>BackEnd : Node.js(Express + MariaDB)</li>
+            <li>Server : WAS(Node.js, HTTP), Tinker Board(Rasbian)</li>
+            <li>Load Balancing : PM2(Advanced Node Js Process Manager)</li>
             <li>Storage : S3, CloudFront(CDN)</li>
             <li>Monitoring : WhaTap</li>
           </ul>
