@@ -8,7 +8,13 @@
 
       <!-- 안랩 -->
       <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+        class="
+          resume-item
+          d-flex
+          flex-column flex-md-row
+          justify-content-between
+          mb-5
+        "
       >
         <div class="resume-content">
           <h3 class="mb-0">Ahnlab .Inc (주)안랩</h3>
@@ -45,6 +51,10 @@
             />
             <img
               class="resume-stack"
+              src="@/assets/images/experience/podman.jpeg"
+            />
+            <img
+              class="resume-stack"
               src="@/assets/images/experience/docker.png"
             />
             <img
@@ -78,7 +88,13 @@
 
       <!-- 열두달 -->
       <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+        class="
+          resume-item
+          d-flex
+          flex-column flex-md-row
+          justify-content-between
+          mb-5
+        "
       >
         <div class="resume-content">
           <h3 class="mb-0">Fooding (주)열두달</h3>
@@ -200,7 +216,12 @@
 
       <!-- 씨큐프라임 -->
       <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between"
+        class="
+          resume-item
+          d-flex
+          flex-column flex-md-row
+          justify-content-between
+        "
       >
         <div class="resume-content">
           <h3 class="mb-0">SECUPRIME (주)씨큐프라임</h3>
