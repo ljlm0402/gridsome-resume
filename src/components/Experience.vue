@@ -81,7 +81,10 @@
           </details>
           <br />
           <div>
-            <img src="@/assets/images/experience/icm.png" />
+            <img
+              class="architecture"
+              src="@/assets/images/experience/icm.png"
+            />
           </div>
         </div>
         <div class="resume-date text-md-right">
