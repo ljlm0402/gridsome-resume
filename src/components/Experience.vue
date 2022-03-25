@@ -65,6 +65,10 @@
               class="resume-stack"
               src="@/assets/images/experience/bitbucket.png"
             />
+            <img
+              class="resume-stack"
+              src="@/assets/images/experience/jenkins.png"
+            />
           </p>
 
           <ul>
