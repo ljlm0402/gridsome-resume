@@ -29,6 +29,8 @@ If you haven't already installed Gridsome CLI: `npm install --global @gridsome/c
 
 **Surge Deploy Guide**
 
+`Node.js Version 14`
+
 1. list all domains you have access to: `surge list`
 
 2. package static build: `npm run build`
