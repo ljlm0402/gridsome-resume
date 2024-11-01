@@ -52,6 +52,70 @@
           </a>
         </li>
       </ul>
+
+      <h2 class="mb-5"></h2>
+      <h3>부스트캠프 웹·모바일 7기 멘토 활동</h3>
+      <p>지속 가능한 개발자를 위한 커뮤니티</p>
+      <ul class="fa-ul mb-0">
+        <li>
+          <a
+            href="https://github.com/boostcampwm-2022"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="github link"
+          >
+            <font-awesome class="fa-li" :icon="['fab', 'github']" />GitHub Link
+          </a>
+        </li>
+      </ul>
+
+      <h2 class="mb-5"></h2>
+      <h3>부스트캠프 웹·모바일 8기 멘토 활동</h3>
+      <p>지속 가능한 개발자를 위한 커뮤니티</p>
+      <ul class="fa-ul mb-0">
+        <li>
+          <a
+            href="https://github.com/boostcampwm2023"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="github link"
+          >
+            <font-awesome class="fa-li" :icon="['fab', 'github']" />GitHub Link
+          </a>
+        </li>
+      </ul>
+
+      <h2 class="mb-5"></h2>
+      <h3>부스트캠프 웹·모바일 9기 멘토 활동</h3>
+      <p>지속 가능한 개발자를 위한 커뮤니티</p>
+      <ul class="fa-ul mb-0">
+        <li>
+          <a
+            href="https://github.com/boostcampwm-2024"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="github link"
+          >
+            <font-awesome class="fa-li" :icon="['fab', 'github']" />GitHub Link
+          </a>
+        </li>
+      </ul>
+
+      <h2 class="mb-5"></h2>
+      <h3>러닝 Vue.js 베타리딩</h3>
+      <p>한빛미디어 출간 서적 "러닝 Vue.js" 베타리딩 참여</p>
+      <ul class="fa-ul mb-0">
+        <li>
+          <a
+            href="https://www.yes24.com/Product/Goods/133974034"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="site link"
+          >
+            <font-awesome class="fa-li" :icon="['fab', 'site']" />GitHub Link
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 </template>

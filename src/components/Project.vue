@@ -65,6 +65,30 @@
           </a>
         </div>
       </div>
+
+      <!-- Vuex State Storage Sync -->
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div>
+          <a href="https://github.com/ljlm0402/vuex-state-storage-sync">
+            <img
+              align="center"
+              src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=vuex-state-storage-sync"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- Pinia Plugin Logger -->
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div>
+          <a href="https://github.com/ljlm0402/pinia-plugin-logger">
+            <img
+              align="center"
+              src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=pinia-plugin-logger"
+            />
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </template>
