@@ -82,7 +82,10 @@
         <div class="resume-date text-md-right">
           <span class="text-primary">2025. 04 ~</span>
         </div>
-
+      </div>
+      <div
+        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+      >
         <div class="resume-content">
           <h3 class="mb-0">Ahnlab .Inc (주)안랩</h3>
           <div class="subheading mb-2">

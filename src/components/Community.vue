@@ -16,8 +16,7 @@
             rel="noopener noreferrer"
             title="facebook link"
           >
-            <p>DEVLOG</p>
-            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />
+            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />DEVLOG
           </a>
         </li>
         <li>
@@ -27,8 +26,7 @@
             rel="noopener noreferrer"
             title="facebook link"
           >
-            <p>실무코딩</p>
-            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />
+            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />실무코딩
           </a>
         </li>
       </ul>
@@ -80,7 +78,7 @@
 
       <h2 class="mb-5"></h2>
       <h3>베타리딩</h3>
-      <p>한빛미디어 출간 서적 "러닝 Vue.js" 베타리딩 참여</p>
+      <p>출간 서적 베타리딩 참여</p>
       <ul class="fa-ul mb-0">
         <li>
           <a
@@ -89,13 +87,9 @@
             rel="noopener noreferrer"
             title="site link"
           >
-            <font-awesome class="fa-li" :icon="['fas', 'share']" /> 예스 24
+            <font-awesome class="fa-li" :icon="['fas', 'share']" /> 러닝 Vue.js
           </a>
         </li>
-      </ul>
-
-      <p>길벗 출간 서적 "Node.js 교과서 개정 2판" 리뷰어 참여</p>
-      <ul class="fa-ul mb-0">
         <li>
           <a
             href="https://www.yes24.com/product/goods/91213376"
@@ -103,7 +97,8 @@
             rel="noopener noreferrer"
             title="site link"
           >
-            <font-awesome class="fa-li" :icon="['fas', 'share']" /> 예스 24
+            <font-awesome class="fa-li" :icon="['fas', 'share']" /> Node.js
+            교과서 개정 2판
           </a>
         </li>
       </ul>
