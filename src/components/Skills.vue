@@ -8,21 +8,29 @@
 
       <div class="subheading mb-3">Programming Languages &amp; Tools</div>
       <ul class="list-inline dev-icons">
-        <li class="list-inline-item"></li>
-        <li class="list-inline-item"></li>
-        <li class="list-inline-item"></li>
-        <li class="list-inline-item"></li>
-        <li class="list-inline-item"></li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'node-js']" />
+          <font-awesome :icon="['fab', 'js-square']" title="JavaScript" />
         </li>
-        <li class="list-inline-item"></li>
-        <li class="list-inline-item"></li>
-        <li class="list-inline-item"></li>
-        <li class="list-inline-item"></li>
-        <li class="list-inline-item"></li>
         <li class="list-inline-item">
-          <font-awesome :icon="['fab', 'npm']" />
+          <font-awesome :icon="['fab', 'vuejs']" title="Vue.js" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'angular']" title="Angular" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'node-js']" title="Node.js" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'npm']" title="npm" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'aws']" title="AWS" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'docker']" title="Docker" />
+        </li>
+        <li class="list-inline-item">
+          <font-awesome :icon="['fab', 'github']" title="GitHub" />
         </li>
       </ul>
 
@@ -30,27 +38,32 @@
       <ul class="fa-ul mb-0">
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />
-          Language : JavaScript, TypeScript
+          Languages: JavaScript, TypeScript
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />
-          FrontEnd : Angular, Vue.js
+          Frontend: Angular, Vue.js, React, Next.js (SPA, SSR, 컴포넌트 기반
+          설계)
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />
-          BackEnd : Node.js(Express, Nest)
+          Backend: Node.js (Express, Nest - RESTful API, 실시간 처리)
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />
-          DataBase : MySQL(SQL), MariaDB(SQL), PostgreSQL(SQL), MongoDB(NoSQL)
+          Database: MySQL, MariaDB, PostgreSQL, MongoDB, DynamoDB
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />
-          CI / CD : AWS CodeBuild, Github Action, Travis CI
+          DevOps/Infra: AWS (EC2, ECS, EKS), Docker, Kubernetes
         </li>
         <li>
           <font-awesome class="fa-li" :icon="['fas', 'check']" />
-          Cloud : AWS - Cluster(ECS), Kubernetes(EKS)
+          CI/CD: GitHub Actions, Jenkins, AWS CodeBuild, Travis CI
+        </li>
+        <li>
+          <font-awesome class="fa-li" :icon="['fas', 'check']" />
+          Collaboration: Git, Slack, Jira, Notions, Trello
         </li>
       </ul>
     </div>

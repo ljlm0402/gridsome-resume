@@ -5,13 +5,23 @@
   >
     <div class="w-100">
       <h1 class="mb-0">임경민</h1>
-      <div class="subheading mb-5">
+      <div class="subheading mb-3">
         <a href="mailto:ljlm0402@gmail.com">ljlm0402@gmail.com</a>
       </div>
-      <p class="lead mb-5">
+      <p class="lead mb-3">
         <span style="color: #eed81a">JavaScript</span>,
-        <span style="color: #2f74bf">TypeScript</span> 개발자입니다.
+        <span style="color: #2f74bf">TypeScript</span> 기반의 개발을 전문으로
+        합니다.
         <img src="@/assets/images/wave.gif" width="30px" />
+      </p>
+      <p class="lead mb-3" style="font-weight: bold">
+        🚀 Best Practices로 최고의 퍼포먼스를 추구하는 개발자<br />
+        🛠️ 관심분야: Architecture, Clean Code, Design Pattern
+      </p>
+      <p class="lead mb-4">
+        가독성, 성능, 트렌드를 핵심 가치로 실용적이고 효율적인 코드를
+        지향합니다.<br />
+        협업과 소통, 성장에 항상 열려 있습니다.
       </p>
       <p class="lead mb-5">
         포트폴리오 사이트 저장소 :
@@ -26,6 +36,7 @@
           />
         </a>
       </p>
+
       <div class="social-icons">
         <a
           href="https://github.com/ljlm0402"
