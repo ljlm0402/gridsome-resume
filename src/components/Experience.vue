@@ -6,6 +6,7 @@
     <div class="w-100">
       <h2 class="mb-5">Experience</h2>
 
+      <!-- 안랩 -->
       <div
         class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
       >
@@ -39,9 +40,9 @@
             />
           </p>
           <p class="mb-1">
-            <b>주요 역할:</b>
+            <b>주요 역할: </b>
             <span>프론트엔드/백엔드 개발</span><br />
-            <b>주요 성과:</b>
+            <b>주요 성과: </b>
             <span
               >프론트엔드/백엔드 개발, 토폴로지 서비스 실시간 성능 개선 30%
               향상</span
@@ -53,8 +54,7 @@
           </div>
           <ul>
             <li>
-              Next.js + Node.js(Express + MariaDB) 기반 통합 대시보드 및 시각화
-              위젯 개발
+              Next.js + Node.js(Express + MariaDB) 기반 모니터링 솔루션 개발
             </li>
             <li>
               Cytoscape(Network Data Integration), Highcharts(Simply Visualize)
@@ -68,26 +68,21 @@
             <summary>Architecture</summary>
             <img
               class="architecture"
-              src="@/assets/images/architecture/icm.png"
+              src="@/assets/images/architecture/xtd.png"
             />
           </details>
           <br />
           <div>
             <img
               class="architecture"
-              src="@/assets/images/experience/icm.png"
+              src="@/assets/images/experience/xtd.png"
             />
           </div>
         </div>
         <div class="resume-date text-md-right">
           <span class="text-primary">2025. 04 ~</span>
         </div>
-      </div>
 
-      <!-- 안랩 -->
-      <div
-        class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-      >
         <div class="resume-content">
           <h3 class="mb-0">Ahnlab .Inc (주)안랩</h3>
           <div class="subheading mb-2">
@@ -136,12 +131,12 @@
             />
           </p>
           <p class="mb-1">
-            <b>주요 역할:</b>
+            <b>주요 역할: </b>
             <span
               >프론트엔드/백엔드 개발, 아키텍처 설계, Kubernetes 기반 배포
               자동화</span
             ><br />
-            <b>주요 성과:</b>
+            <b>주요 성과: </b>
             <span>서비스 무중단 배포, 실시간 데이터 동기화 성능 30% 향상</span>
           </p>
           <div class="tags">
@@ -211,20 +206,20 @@
             <img class="resume-stack" src="@/assets/images/stacks/github.png" />
           </p>
           <p class="mb-1">
-            <b>주요 역할:</b>
+            <b>주요 역할: </b>
             <span
               >프론트엔드/백엔드 개발, 아키텍처 설계, ECS + Code PipeLine 기반
               배포 자동화</span
             ><br />
-            <b>주요 성과:</b>
+            <b>주요 성과: </b>
             <span
               >프론트/백엔드 100% 개발, 알림/메일 서비스 개발, 서비스 무중단
               배포</span
             >
           </p>
           <div class="tags">
-            <span>#Angular</span> <span>#Node.js</span> <span>#AWS - ECS</span>
-            <span>#MySQL</span><span>#MongoDB</span>
+            <span>#Angular</span> <span>#Node.js</span> <span>#AWS</span>
+            <span>#MySQL</span> <span>#MongoDB</span>
           </div>
           <ul>
             <li>
@@ -326,12 +321,12 @@
           </p>
 
           <p class="mb-1">
-            <b>주요 역할:</b>
+            <b>주요 역할: </b>
             <span
               >프론트엔드/백엔드 개발, 아키텍처 설계, PM2 기반 무중단
               서비스</span
             ><br />
-            <b>주요 성과:</b>
+            <b>주요 성과: </b>
             <span
               >프론트/백엔드 개발(100%), Pos 기기 연동으로 재고 및 정산 통합,
               On-Premise(온프레미스)의 설치형

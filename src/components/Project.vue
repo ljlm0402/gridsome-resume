@@ -5,7 +5,7 @@
   >
     <div class="w-100">
       <h2 class="mb-5">Project</h2>
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/typescript-express-starter">
           <img
             align="center"
@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/packmate">
           <img
             align="center"
@@ -63,7 +63,7 @@
         </div>
       </div>
 
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/auto-github-tool">
           <img
             align="center"
@@ -93,7 +93,7 @@
         </div>
       </div>
 
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/zenon">
           <img
             align="center"
@@ -121,7 +121,7 @@
         </div>
       </div>
 
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/pinia-plugin-logger">
           <img
             align="center"
@@ -149,7 +149,7 @@
         </div>
       </div>
 
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/vuex-state-storage-sync">
           <img
             align="center"

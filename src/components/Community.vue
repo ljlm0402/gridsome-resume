@@ -10,25 +10,25 @@
       <p>다양한 개발지식을 공유하는 오픈 커뮤니티를 운영</p>
       <ul class="fa-ul mb-0">
         <li>
-          <p>DEVLOG</p>
           <a
             href="https://www.facebook.com/groups/765872100510405/"
             target="_blank"
             rel="noopener noreferrer"
             title="facebook link"
           >
-            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />Link
+            <p>DEVLOG</p>
+            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />
           </a>
         </li>
         <li>
-          <p>실무코딩</p>
           <a
             href="https://www.facebook.com/groups/smcoding/"
             target="_blank"
             rel="noopener noreferrer"
             title="facebook link"
           >
-            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />Link Link
+            <p>실무코딩</p>
+            <font-awesome class="fa-li" :icon="['fab', 'facebook']" />
           </a>
         </li>
       </ul>
@@ -60,7 +60,7 @@
             <font-awesome
               class="fa-li"
               :icon="['fab', 'github']"
-            />boostcampwm2023
+            />boostcampwm-2023
           </a>
         </li>
         <li>
@@ -89,7 +89,7 @@
             rel="noopener noreferrer"
             title="site link"
           >
-            <font-awesome class="fa-li" :icon="['fab', 'share']" /> 예스 24
+            <font-awesome class="fa-li" :icon="['fas', 'share']" /> 예스 24
           </a>
         </li>
       </ul>
@@ -103,7 +103,7 @@
             rel="noopener noreferrer"
             title="site link"
           >
-            <font-awesome class="fa-li" :icon="['fab', 'share']" /> 예스 24
+            <font-awesome class="fa-li" :icon="['fas', 'share']" /> 예스 24
           </a>
         </li>
       </ul>
