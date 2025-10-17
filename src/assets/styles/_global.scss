@@ -1,45 +1,80 @@
-// Global styling for this template
+// Global styling - Modern Glassmorphism Theme
 
 body {
   @include body-font;
-  padding-top: 54px;
-  color: $gray-600;
-}
+  padding: 0 !important;
+  background: linear-gradient(135deg, #FDB750 0%, #FFCC4D 50%, #FFE179 100%);
+  background-attachment: fixed;
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  color: $white;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    padding-left: $sidebar-base-width;
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+      radial-gradient(circle at 20% 50%, rgba(253, 183, 80, 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(255, 204, 77, 0.3) 0%, transparent 50%),
+      radial-gradient(circle at 40% 20%, rgba(255, 225, 121, 0.3) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1, h2, h3, h4, h5, h6 {
   @include heading-font;
   font-weight: 700;
-  color: $gray-800;
+  color: $white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
+  font-size: 4rem;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #fff 0%, #e0e0e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+  }
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: $white;
 }
 
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .subheading {
@@ -47,6 +82,69 @@ p.lead {
   font-weight: 500;
   @include heading-font;
   font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+// Glass Card Effect - Mobile App Style
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 
+    0 8px 32px 0 rgba(31, 38, 135, 0.37),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, 
+      transparent, 
+      rgba(255, 255, 255, 0.5), 
+      transparent
+    );
+  }
+
+  &:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 
+      0 15px 45px 0 rgba(31, 38, 135, 0.5),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.35);
+  }
+}
+
+// Compact Glass Card for smaller sections
+.glass-card-compact {
+  @extend .glass-card;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+// Mini Glass Card for stats
+.glass-mini-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+  }
 }
 
 .social-icons {
@@ -54,20 +152,26 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: $gray-700;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
     color: $white !important;
-    border-radius: 100%;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px 0 rgba(31, 38, 135, 0.3);
 
     &:last-child {
       margin-right: 0;
     }
 
     &:hover {
-      background-color: $primary;
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 8px 25px 0 rgba(31, 38, 135, 0.5);
     }
   }
 }
@@ -75,9 +179,164 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 
-  .list-inline-item i {
+  .list-inline-item svg {
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+
     &:hover {
-      color: $primary;
+      color: $white;
+      transform: scale(1.2) rotate(5deg);
+      filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.3));
     }
+  }
+}
+
+// Floating Animation
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+// Pulse Animation
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.pulse-animation {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+// 통일된 호버 효과
+@mixin card-hover {
+  transform: translateY(-5px);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@mixin small-item-hover {
+  transform: translateY(-3px) scale(1.05);
+  transition: all 0.3s ease;
+}
+
+@mixin icon-hover {
+  transform: scale(1.2) rotate(5deg);
+  transition: all 0.3s ease;
+}
+
+// Fade In Up Animation
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out backwards;
+}
+
+
+// Glow Effect
+.glow-effect {
+  box-shadow: 
+    0 0 20px rgba(255, 255, 255, 0.3),
+    0 0 40px rgba(253, 183, 80, 0.2),
+    0 0 60px rgba(255, 204, 77, 0.1);
+}
+
+// Dark Theme - Agumon Night Mode
+html.dark-theme {
+  body {
+    background: linear-gradient(135deg, #2C1810 0%, #4A2C1A 50%, #5C3A24 100%);
+    
+    &::before {
+      background: 
+        radial-gradient(circle at 20% 50%, rgba(253, 183, 80, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(255, 204, 77, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 40% 20%, rgba(255, 225, 121, 0.15) 0%, transparent 50%);
+    }
+  }
+
+  h1 {
+    background: linear-gradient(135deg, #FDB750 0%, #FFCC4D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  h2 {
+    background: linear-gradient(135deg, #FFE179 0%, #FDB750 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  h3 {
+    color: #FFE179;
+  }
+
+  p.lead {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .subheading {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .glass-card {
+    background: rgba(30, 20, 15, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(253, 183, 80, 0.3);
+    box-shadow: 
+      0 8px 32px 0 rgba(0, 0, 0, 0.6),
+      inset 0 1px 0 0 rgba(253, 183, 80, 0.2);
+
+    &::before {
+      background: linear-gradient(90deg, 
+        transparent, 
+        rgba(253, 183, 80, 0.3), 
+        transparent
+      );
+    }
+
+    &:hover {
+      background: rgba(30, 20, 15, 0.7);
+      border-color: rgba(253, 183, 80, 0.5);
+      box-shadow: 
+        0 15px 45px 0 rgba(0, 0, 0, 0.8),
+        inset 0 1px 0 0 rgba(253, 183, 80, 0.3);
+    }
+  }
+
+  .glass-mini-card {
+    background: rgba(30, 20, 15, 0.5);
+    border: 1px solid rgba(253, 183, 80, 0.25);
+
+    &:hover {
+      background: rgba(30, 20, 15, 0.6);
+    }
+  }
+
+  .social-icons a {
+    background: rgba(30, 20, 15, 0.5);
+    border: 1px solid rgba(253, 183, 80, 0.25);
+
+    &:hover {
+      background: rgba(253, 183, 80, 0.2);
+    }
+  }
+
+  // Particles in dark mode
+  .particle {
+    background: rgba(253, 183, 80, 0.15);
   }
 }

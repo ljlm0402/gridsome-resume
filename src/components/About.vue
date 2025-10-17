@@ -1,117 +1,406 @@
 <template>
-  <section
-    class="resume-section p-3 p-lg-5 d-flex align-items-center"
-    id="about"
-  >
-    <div class="w-100">
-      <h1 class="mb-0">임경민</h1>
-      <div class="subheading mb-3">
-        <a href="mailto:ljlm0402@gmail.com">ljlm0402@gmail.com</a>
-      </div>
-      <p class="lead mb-3">
-        저는 <span style="color: #eed81a">JavaScript</span>와 <span style="color: #2f74bf">TypeScript</span> 기반의 개발을 전문으로 하는 엔지니어입니다.
-        <img src="@/assets/images/wave.gif" width="30px" />
-      </p>
-      <p>
-        단순히 코드를 작성하는 것에 그치지 않고, Best Practice를 통해 최고의 퍼포먼스를 구현하는 것을 목표로 합니다.
-      </p>
-      <p class="lead mb-3" style="font-weight: bold">
-        🚀 퍼포먼스 중심의 실용적 개발자<br />
-        🛠️ 관심분야: Architecture · Clean Code · Design Pattern
-      </p>
-      <p class="lead mb-4">
-      가독성과 성능, 그리고 트렌드를 핵심 가치로 두고 <br />
-      ‘읽기 쉽고 유지보수하기 좋은 코드’, ‘유연한 구조’, ‘최신 기술 트렌드의 합리적 도입’을 지향합니다. <br />
-      항상 협업과 성장에 열린 마음으로, 함께 발전하는 개발 문화를 만들어갑니다.
-      </p>
-      <p class="lead mb-5">
-        포트폴리오 사이트 저장소 :
-        <a
-          href="https://github.com/ljlm0402/gridsome-resume"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Portfolio"
-        >
-          <img
-            src="https://img.shields.io/static/v1?label=gridsome-resume&message=%20&color=000605&logo=github&logoColor=white&labelColor=000605"
-          />
-        </a>
-      </p>
+  <div class="glass-card hero-card">
+    <div class="hero-content">
+      <h1 class="mb-4 animate-title">
+        임경민
+      </h1>
+          
+          <div class="subheading mb-4 gradient-text">
+            <a href="mailto:ljlm0402@gmail.com" class="email-link">
+              ✉️ ljlm0402@gmail.com
+            </a>
+          </div>
 
-      <div class="social-icons">
-        <a
-          href="https://github.com/ljlm0402"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="GitHub"
-        >
-          <font-awesome :icon="['fab', 'github']" />
-        </a>
-        <a
-          href="https://www.npmjs.com/~limkyungmin"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="NPM Packages"
-        >
-          <font-awesome :icon="['fab', 'npm']" />
-        </a>
-        <a
-          href="https://ljlm0402.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Tech Blog"
-        >
-          <font-awesome :icon="['fab', 'dev']" />
-        </a>
-        <a
-          href="https://ljlm0402.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="GitHub Pages"
-        >
-          <font-awesome :icon="['fas', 'link']" />
-        </a>
-        <a
-          href="https://stackshare.io/kyungmin/tech-stack"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Tech Stack"
-        >
-          <font-awesome :icon="['fab', 'stackpath']" />
-        </a>
+          <div class="intro-cards">
+            <div class="glass-card mini-card">
+              <div class="card-icon">💻</div>
+              <p class="lead mb-0">
+                사용자 경험을 최우선하는<br />
+                <span class="highlight-js">Full Stack</span> Developer
+              </p>
+            </div>
+
+            <div class="glass-card mini-card">
+              <div class="card-icon">🚀</div>
+              <p class="lead mb-0">
+                <strong>확장 가능한 아키텍처</strong>와<br />
+                <strong>클린 코드</strong>를 추구합니다
+              </p>
+            </div>
+
+            <div class="glass-card mini-card">
+              <div class="card-icon">🛠️</div>
+              <p class="lead mb-0">
+                <strong>관심분야:</strong><br />
+                Architecture · Clean Code · Design Pattern
+              </p>
+            </div>
+          </div>
+
+          <div class="philosophy-section glass-card">
+            <h3 class="section-title">💡 개발 철학</h3>
+            <div class="philosophy-grid">
+              <div class="philosophy-item">
+                <div class="icon-badge">📖</div>
+                <h4>가독성</h4>
+                <p>읽기 쉽고 유지보수하기 좋은 코드</p>
+              </div>
+              <div class="philosophy-item">
+                <div class="icon-badge">🏗️</div>
+                <h4>유연한 구조</h4>
+                <p>확장 가능한 아키텍처 설계</p>
+              </div>
+              <div class="philosophy-item">
+                <div class="icon-badge">⚡</div>
+                <h4>최신 기술</h4>
+                <p>트렌드의 합리적 도입</p>
+              </div>
+              <div class="philosophy-item">
+                <div class="icon-badge">🤝</div>
+                <h4>협업과 성장</h4>
+                <p>함께 발전하는 개발 문화</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-link glass-card">
+            <p class="mb-2">
+              <strong>📂 포트폴리오 저장소</strong>
+            </p>
+            <a
+              href="https://github.com/ljlm0402/gridsome-resume"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Portfolio"
+              class="github-badge"
+            >
+              <img
+                src="https://img.shields.io/static/v1?label=gridsome-resume&message=%20&color=FDB750&logo=github&logoColor=white&labelColor=FFCC4D"
+              />
+            </a>
+          </div>
+
+          <div class="social-section glass-card">
+            <h4 class="social-title">🔗 Connect with me</h4>
+            <div class="social-grid">
+              <a
+                href="https://github.com/ljlm0402"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub"
+                class="social-item glass-mini-card"
+              >
+                <font-awesome :icon="['fab', 'github']" class="social-icon" />
+                <span class="social-name">GitHub</span>
+              </a>
+              <a
+                href="https://www.npmjs.com/~limkyungmin"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="NPM Packages"
+                class="social-item glass-mini-card"
+              >
+                <font-awesome :icon="['fab', 'npm']" class="social-icon" />
+                <span class="social-name">NPM</span>
+              </a>
+              <a
+                href="https://ljlm0402.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Tech Blog"
+                class="social-item glass-mini-card"
+              >
+                <font-awesome :icon="['fab', 'dev']" class="social-icon" />
+                <span class="social-name">Blog</span>
+              </a>
+              <a
+                href="https://ljlm0402.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub Pages"
+                class="social-item glass-mini-card"
+              >
+                <font-awesome :icon="['fas', 'link']" class="social-icon" />
+                <span class="social-name">Pages</span>
+              </a>
+              <a
+                href="https://stackshare.io/kyungmin/tech-stack"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Tech Stack"
+                class="social-item glass-mini-card"
+              >
+                <font-awesome :icon="['fab', 'stackpath']" class="social-icon" />
+                <span class="social-name">Stack</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-.social-icons a {
-  cursor: pointer;
+.hero-card {
+  animation: fadeInUp 0.8s ease-out;
+  
+  // 상단 nav와 동일한 너비를 위해 좌우 padding 제거
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  
+  // 내부 컨텐츠에만 padding 적용
+  .hero-content {
+    padding: 0 2rem;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-title {
+  animation: slideInLeft 0.8s ease-out;
+  position: relative;
   display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: var(--secondary);
-  color: #fff !important;
-  border-radius: 100%;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.wave-emoji {
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+  transform-origin: 70% 70%;
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  10%, 30% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+}
+
+.email-link {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  
+  &:hover {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.intro-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+
+.mini-card {
+  padding: 1.5rem !important;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 3.5rem;
-  margin-right: 1rem;
+  animation: fadeInUp 0.8s ease-out backwards;
+  
+  &:nth-child(1) { animation-delay: 0.2s; }
+  &:nth-child(2) { animation-delay: 0.4s; }
+  &:nth-child(3) { animation-delay: 0.6s; }
+}
 
-  @media (max-width: 380px) {
-    margin-right: 0.5rem;
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.highlight-js {
+  color: #f7df1e;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(247, 223, 30, 0.5);
+}
+
+.highlight-ts {
+  color: #3178c6;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(49, 120, 198, 0.5);
+}
+
+.philosophy-section {
+  margin: 2rem 0;
+  padding: 2rem 4rem !important;
+  animation: fadeInUp 0.8s ease-out 0.8s backwards;
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.philosophy-item {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
   }
 
-  @media (max-width: 350px) {
-    margin-right: 0.2rem;
+  h4 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
   }
 }
 
-.social-icons a:last-child {
-  margin-right: 0;
+.icon-badge {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  animation: float 3s ease-in-out infinite;
+  
+  .philosophy-item:nth-child(2) & { animation-delay: 0.5s; }
+  .philosophy-item:nth-child(3) & { animation-delay: 1s; }
+  .philosophy-item:nth-child(4) & { animation-delay: 1.5s; }
 }
 
-.social-icons a:hover {
-  background-color: var(--light);
+.portfolio-link {
+  margin: 2rem 0;
+  padding: 1.5rem 4rem !important;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out 1s backwards;
+}
+
+.github-badge {
+  transition: all 0.3s ease;
+  display: inline-block;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    height: 28px;
+  }
+}
+
+.social-section {
+  margin-top: 2rem;
+  padding: 2.5rem 4rem !important;
+  animation: fadeInUp 0.8s ease-out 1.2s backwards;
+}
+
+.social-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 700;
+}
+
+// Social Grid - Skills의 tech-grid 스타일과 동일
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 1rem;
+
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.75rem;
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+  }
+
+  @media (max-width: 576px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.2rem 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.25);
+
+    .social-icon {
+      transform: scale(1.2);
+      color: #FDB750;
+    }
+  }
+}
+
+.social-icon {
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.social-name {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-weight: 500;
+
+  @media (max-width: 768px) {
+    font-size: 0.75rem;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
 }
 </style>

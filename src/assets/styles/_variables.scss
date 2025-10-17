@@ -1,4 +1,4 @@
-// Variables
+// Variables - Modern Glassmorphism Theme
 
 // Restate Bootstrap Variables
 
@@ -14,28 +14,41 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$blue: #007bff !default;
-$indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
-$pink: #e83e8c !default;
-$red: #dc3545 !default;
-$orange: #BD5D38 !default;
-$yellow: #ffc107 !default;
-$green: #28a745 !default;
-$teal: #20c997 !default;
-$cyan: #17a2b8 !default;
+// Modern Color Palette
+$blue: #667eea !default;
+$indigo: #764ba2 !default;
+$purple: #9333ea !default;
+$pink: #ec4899 !default;
+$red: #ef4444 !default;
+$orange: #f59e0b !default;
+$yellow: #fbbf24 !default;
+$green: #10b981 !default;
+$teal: #14b8a6 !default;
+$cyan: #06b6d4 !default;
 
-$nav: #E6AB0B !default;
+// Gradient Colors
+$gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+$gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+$gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+$gradient-dark: linear-gradient(135deg, #434343 0%, #000000 100%);
 
-$primary: $gray-700 !default;
-$secondary: $gray-700 !default;
+$nav: #667eea !default;
+
+$primary: $blue !default;
+$secondary: $purple !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
 $danger: $red !default;
-$light: $gray-400 !default;
-$dark: $gray-800 !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
 
 // Page Variables
 
 $sidebar-base-width: 17rem;
+
+// Glass Effect Variables
+$glass-bg: rgba(255, 255, 255, 0.1);
+$glass-border: rgba(255, 255, 255, 0.18);
+$glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+$glass-backdrop: blur(10px);

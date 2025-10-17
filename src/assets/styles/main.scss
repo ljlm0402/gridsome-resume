@@ -1,10 +1,11 @@
-@import "variables.scss";
-@import "mixins.scss";
+@use "sass:math";
+@use "variables" as *;
+@use "mixins" as *;
 
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
-@import "nav.scss";
-@import "global.scss";
-@import "resume-item.scss";
-@import "bootstrap-overrides.scss";
+@import "nav";
+@import "global";
+@import "resume-item";
+@import "bootstrap-overrides";

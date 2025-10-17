@@ -1,0 +1,10 @@
+# robots.txt for https://kyungmin-resume.surge.sh
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kyungmin-resume.surge.sh/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10

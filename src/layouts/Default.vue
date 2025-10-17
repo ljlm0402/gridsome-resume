@@ -1,20 +1,28 @@
 <template>
   <div class="layout">
-    <Nav />
+    <ScrollProgress />
+    <LoadingScreen />
     <slot />
   </div>
 </template>
 
 <script>
-import Nav from "../components/Nav";
+import LoadingScreen from '~/components/LoadingScreen.vue'
+import ScrollProgress from '~/components/ScrollProgress.vue'
 
 export default {
   components: {
-    Nav,
+    LoadingScreen,
+    ScrollProgress
   },
 };
 </script>
 
-
 <style lang="scss">
+.layout {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
 </style>
