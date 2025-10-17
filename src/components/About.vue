@@ -217,6 +217,12 @@
   gap: 1.5rem;
   margin: 2rem 0;
   padding: 0 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+    justify-items: center;
+  }
 }
 
 .mini-card {
@@ -227,6 +233,11 @@
   &:nth-child(1) { animation-delay: 0.2s; }
   &:nth-child(2) { animation-delay: 0.4s; }
   &:nth-child(3) { animation-delay: 0.6s; }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 340px;
+  }
 }
 
 .card-icon {
@@ -236,9 +247,9 @@
 }
 
 .highlight-js {
-  color: #675d0eff;
+  color: #6b717c;
   font-weight: 700;
-  text-shadow: 0 0 10px rgba(94, 93, 83, 0.5);
+  text-shadow: 0 0 10px rgb(56 63 77);
 }
 
 .highlight-ts {
@@ -251,6 +262,10 @@
   margin: 2rem 0;
   padding: 2rem 4rem !important;
   animation: fadeInUp 0.8s ease-out 0.8s backwards;
+
+  @media (max-width: 768px) {
+    padding: 1.5rem 1rem !important;
+  }
 }
 
 .section-title {
@@ -263,6 +278,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
+  }
 }
 
 .philosophy-item {
@@ -287,6 +308,12 @@
     font-size: 0.9rem;
     color: rgba(45, 55, 72, 0.8);
     margin: 0;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 340px;
   }
 }
 

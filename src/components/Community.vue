@@ -260,12 +260,12 @@
 }
 
 .arrow-icon {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(45, 55, 72, 0.6);
   font-size: 1.2rem;
   transition: all 0.3s ease;
 
   .activity-item:hover & {
-    color: #1a202c;
+    color: #D4941A;
     transform: translateX(5px);
   }
 }
@@ -376,12 +376,12 @@
 }
 
 .link-icon {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(45, 55, 72, 0.6);
   font-size: 1.1rem;
   transition: all 0.3s ease;
 
   .book-item:hover & {
-    color: #1a202c;
+    color: #D4941A;
   }
 }
 
@@ -411,12 +411,8 @@
 .stat-value {
   font-size: 2.5rem;
   font-weight: 700;
-  color: white;
+  color: #2d374899;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #667eea, #f093fb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .stat-label {
