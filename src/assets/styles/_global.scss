@@ -419,4 +419,15 @@ html.dark-theme {
       color: #FDB750 !important;
     }
   }
+
+  // Top Nav Profile Info
+  .profile-info {
+    h4 {
+      color: rgba(255, 255, 255, 0.95) !important;
+    }
+    
+    p {
+      color: rgba(255, 255, 255, 0.8) !important;
+    }
+  }
 }
