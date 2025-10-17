@@ -238,7 +238,7 @@
 .card-title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 0.5rem;
 
   @media (max-width: 768px) {
@@ -247,7 +247,7 @@
 }
 
 .card-subtitle {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   font-size: 1rem;
   margin: 0;
 }
@@ -305,7 +305,7 @@
 .project-title {
   font-size: 1.3rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin: 0;
 
   @media (max-width: 768px) {
@@ -328,7 +328,7 @@
 }
 
 .project-desc {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(45, 55, 72, 0.85);
   font-size: 0.95rem;
   line-height: 1.6;
   margin: 0;
@@ -350,7 +350,7 @@
   background: rgba(253, 183, 80, 0.3);
   border: 1px solid rgba(253, 183, 80, 0.5);
   border-radius: 15px;
-  color: white;
+  color: #2d3748;
   font-size: 0.8rem;
   font-weight: 500;
   transition: all 0.3s ease;

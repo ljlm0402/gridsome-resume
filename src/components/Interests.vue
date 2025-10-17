@@ -110,7 +110,7 @@
 .card-title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 0.5rem;
 
   @media (max-width: 768px) {
@@ -119,7 +119,7 @@
 }
 
 .card-subtitle {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   font-size: 1rem;
   margin: 0;
 }
@@ -167,7 +167,7 @@
 .quote-text {
   font-size: 1.5rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 0.5rem;
   position: relative;
   z-index: 1;
@@ -179,7 +179,7 @@
 
 .quote-subtext {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   margin: 0;
   position: relative;
   z-index: 1;
@@ -226,7 +226,7 @@
 .principle-title {
   font-size: 1.3rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 0.75rem;
 
   @media (max-width: 768px) {
@@ -236,7 +236,7 @@
 
 .principle-desc {
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(45, 55, 72, 0.8);
   line-height: 1.6;
   margin: 0;
 
@@ -253,7 +253,7 @@
 .section-title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 1rem;
   text-align: center;
 
@@ -274,7 +274,7 @@
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
-  color: white;
+  color: #2d3748;
   font-size: 0.95rem;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -328,7 +328,7 @@
 }
 
 .activity-text {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(45, 55, 72, 0.9);
   font-size: 0.95rem;
   font-weight: 500;
 

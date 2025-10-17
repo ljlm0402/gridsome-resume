@@ -155,7 +155,7 @@
 .card-title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 0.5rem;
 
   @media (max-width: 768px) {
@@ -164,7 +164,7 @@
 }
 
 .card-subtitle {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   font-size: 1rem;
   margin: 0;
 }
@@ -185,7 +185,7 @@
 .section-title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 0.5rem;
   text-align: center;
 
@@ -195,7 +195,7 @@
 }
 
 .section-desc {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   font-size: 0.95rem;
   text-align: center;
   margin-bottom: 1.5rem;
@@ -245,7 +245,7 @@
 .item-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin: 0 0 0.3rem 0;
 
   @media (max-width: 768px) {
@@ -255,7 +255,7 @@
 
 .item-desc {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   margin: 0;
 }
 
@@ -265,7 +265,7 @@
   transition: all 0.3s ease;
 
   .activity-item:hover & {
-    color: white;
+    color: #1a202c;
     transform: translateX(5px);
   }
 }
@@ -302,11 +302,11 @@
 
 .badge-icon {
   font-size: 2.5rem;
-  color: white;
+  color: #2d3748;
 }
 
 .badge-text {
-  color: white;
+  color: #2d3748;
   font-size: 0.95rem;
   font-weight: 600;
   text-align: center;
@@ -361,7 +361,7 @@
 .book-title {
   font-size: 1.1rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin: 0 0 0.3rem 0;
 
   @media (max-width: 768px) {
@@ -371,7 +371,7 @@
 
 .book-publisher {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   margin: 0;
 }
 
@@ -381,7 +381,7 @@
   transition: all 0.3s ease;
 
   .book-item:hover & {
-    color: white;
+    color: #1a202c;
   }
 }
 
@@ -421,7 +421,7 @@
 
 .stat-label {
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(45, 55, 72, 0.8);
   font-weight: 500;
 
   @media (max-width: 768px) {

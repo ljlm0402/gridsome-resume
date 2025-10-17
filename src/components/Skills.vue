@@ -161,7 +161,7 @@ export default {
 .card-title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 0.5rem;
 
   @media (max-width: 768px) {
@@ -170,7 +170,7 @@ export default {
 }
 
 .card-subtitle {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   font-size: 1rem;
   margin: 0;
 }
@@ -220,7 +220,7 @@ export default {
 
 .tech-icon {
   font-size: 2.5rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(45, 55, 72, 0.9);
   transition: all 0.3s ease;
 
   @media (max-width: 768px) {
@@ -230,7 +230,7 @@ export default {
 
 .tech-name {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(45, 55, 72, 0.8);
   text-align: center;
   font-weight: 500;
 
@@ -271,7 +271,7 @@ export default {
 .category-title {
   font-size: 1.3rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin: 0;
 
   @media (max-width: 768px) {
@@ -293,7 +293,7 @@ export default {
 
 .skill-name {
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(45, 55, 72, 0.9);
   font-weight: 500;
 }
 
@@ -346,7 +346,7 @@ export default {
 .section-subtitle {
   font-size: 1.4rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 1rem;
   text-align: center;
 
@@ -372,7 +372,7 @@ export default {
   padding: 0.75rem 1rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(45, 55, 72, 0.9);
   font-size: 0.95rem;
   transition: all 0.3s ease;
 

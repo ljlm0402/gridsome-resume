@@ -16,7 +16,7 @@
               <div class="card-icon">💻</div>
               <p class="lead mb-0">
                 사용자 경험을 최우선하는<br />
-                <span class="highlight-js">Full Stack</span> Developer
+                <span class="highlight-js">JavaScript</span> Developer
               </p>
             </div>
 
@@ -200,14 +200,14 @@
 }
 
 .email-link {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(45, 55, 72, 0.95);
   text-decoration: none;
   transition: all 0.3s ease;
   position: relative;
   
   &:hover {
-    color: #fff;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    color: #1a202c;
+    text-shadow: 0 0 10px rgba(253, 183, 80, 0.5);
   }
 }
 
@@ -236,9 +236,9 @@
 }
 
 .highlight-js {
-  color: #f7df1e;
+  color: #675d0eff;
   font-weight: 700;
-  text-shadow: 0 0 10px rgba(247, 223, 30, 0.5);
+  text-shadow: 0 0 10px rgba(94, 93, 83, 0.5);
 }
 
 .highlight-ts {
@@ -280,12 +280,12 @@
   h4 {
     font-size: 1.2rem;
     margin: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.95);
+    color: rgba(45, 55, 72, 0.95);
   }
 
   p {
     font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(45, 55, 72, 0.8);
     margin: 0;
   }
 }
@@ -330,7 +330,7 @@
   text-align: center;
   margin-bottom: 1.5rem;
   font-size: 1.6rem;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(45, 55, 72, 0.95);
   font-weight: 700;
 }
 
@@ -365,7 +365,7 @@
   transition: all 0.3s ease;
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: #2d3748;
 
   &:hover {
     transform: translateY(-5px);
@@ -380,7 +380,7 @@
 
 .social-icon {
   font-size: 2.5rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(45, 55, 72, 0.9);
   transition: all 0.3s ease;
 
   @media (max-width: 768px) {
@@ -390,7 +390,7 @@
 
 .social-name {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(45, 55, 72, 0.8);
   text-align: center;
   font-weight: 500;
 

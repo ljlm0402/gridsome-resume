@@ -7,7 +7,7 @@ body {
   background-attachment: fixed;
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
-  color: $white;
+  color: #2d3748;
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
@@ -37,14 +37,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @include heading-font;
   font-weight: 700;
-  color: $white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  color: #1a202c;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
 }
 
 h1 {
   font-size: 4rem;
   line-height: 1.2;
-  background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -56,7 +56,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  background: linear-gradient(135deg, #fff 0%, #e0e0e0 100%);
+  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -68,13 +68,13 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  color: $white;
+  color: #2d3748;
 }
 
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(45, 55, 72, 0.95);
 }
 
 .subheading {
@@ -82,7 +82,7 @@ p.lead {
   font-weight: 500;
   @include heading-font;
   font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(45, 55, 72, 0.85);
 }
 
 // Glass Card Effect - Mobile App Style
@@ -152,11 +152,11 @@ p.lead {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
-    color: $white !important;
+    color: #2d3748 !important;
     border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
@@ -256,6 +256,7 @@ p.lead {
 html.dark-theme {
   body {
     background: linear-gradient(135deg, #2C1810 0%, #4A2C1A 50%, #5C3A24 100%);
+    color: rgba(255, 255, 255, 0.9);
     
     &::before {
       background: 
@@ -263,6 +264,11 @@ html.dark-theme {
         radial-gradient(circle at 80% 80%, rgba(255, 204, 77, 0.15) 0%, transparent 50%),
         radial-gradient(circle at 40% 20%, rgba(255, 225, 121, 0.15) 0%, transparent 50%);
     }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #FFE179;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
 
   h1 {
@@ -338,5 +344,79 @@ html.dark-theme {
   // Particles in dark mode
   .particle {
     background: rgba(253, 183, 80, 0.15);
+  }
+
+  // Text colors for all components in dark mode
+  .card-title,
+  .section-title,
+  .company-name,
+  .item-title,
+  .book-title,
+  .project-title,
+  .principle-title,
+  .category-title,
+  .social-title,
+  .quote-text,
+  .philosophy-item h4 {
+    color: #FFE179 !important;
+  }
+
+  .card-subtitle,
+  .section-subtitle,
+  .section-desc,
+  .item-desc,
+  .book-publisher,
+  .project-desc,
+  .principle-desc,
+  .quote-subtext,
+  .highlight-label,
+  .stat-label,
+  .activity-text,
+  .skill-name,
+  .tech-name,
+  .social-name,
+  .workflow-item,
+  .philosophy-item p {
+    color: rgba(255, 255, 255, 0.85) !important;
+  }
+
+  .highlight-value,
+  .period,
+  .project-link,
+  .tag,
+  .focus-tag,
+  .badge-text,
+  .badge-icon {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  .email-link {
+    color: rgba(255, 255, 255, 0.95) !important;
+    
+    &:hover {
+      color: #FDB750 !important;
+    }
+  }
+
+  .social-item,
+  .tech-icon,
+  .social-icon {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  .achievements li {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  summary {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  .arrow-icon,
+  .link-icon {
+    .activity-item:hover &,
+    .book-item:hover & {
+      color: #FDB750 !important;
+    }
   }
 }

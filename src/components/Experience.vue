@@ -247,7 +247,7 @@
 .section-title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin-bottom: 0.5rem;
 
   @media (max-width: 768px) {
@@ -256,7 +256,7 @@
 }
 
 .section-subtitle {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(45, 55, 72, 0.7);
   font-size: 1rem;
   margin: 0;
 }
@@ -344,7 +344,7 @@
 .company-name {
   font-size: 1.6rem;
   font-weight: 700;
-  color: white;
+  color: #1a202c;
   margin: 0;
 
   @media (max-width: 768px) {
@@ -356,7 +356,7 @@
   padding: 0.4rem 1rem;
   background: linear-gradient(135deg, #FDB750, #FFCC4D);
   border-radius: 20px;
-  color: white;
+  color: #1a202c;
   font-size: 0.9rem;
   font-weight: 600;
   white-space: nowrap;
@@ -369,15 +369,15 @@
 }
 
 .project-link {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(45, 55, 72, 0.9);
   font-size: 1.1rem;
   text-decoration: none;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid rgba(45, 55, 72, 0.3);
   transition: all 0.3s ease;
 
   &:hover {
-    color: #f093fb;
-    border-color: #f093fb;
+    color: #1a202c;
+    border-color: #1a202c;
   }
 
   @media (max-width: 768px) {
@@ -437,13 +437,13 @@
 
 .highlight-label {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(45, 55, 72, 0.6);
   font-weight: 600;
 }
 
 .highlight-value {
   font-size: 0.95rem;
-  color: white;
+  color: #2d3748;
   font-weight: 500;
 }
 
@@ -460,7 +460,7 @@
   background: rgba(253, 183, 80, 0.3);
   border: 1px solid rgba(253, 183, 80, 0.5);
   border-radius: 15px;
-  color: white;
+  color: #2d3748;
   font-size: 0.85rem;
   font-weight: 500;
   transition: all 0.3s ease;
@@ -481,7 +481,7 @@
   li {
     padding-left: 1.5rem;
     margin-bottom: 0.75rem;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(45, 55, 72, 0.9);
     font-size: 0.95rem;
     line-height: 1.6;
     position: relative;
@@ -505,7 +505,7 @@
     padding: 1rem;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    color: white;
+    color: #2d3748;
     font-weight: 600;
     font-size: 1rem;
     transition: all 0.3s ease;
