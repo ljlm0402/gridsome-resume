@@ -11,7 +11,7 @@
         class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
       >
         <div class="resume-content">
-          <h3 class="mb-0">Ahnlab .Inc (주)안랩</h3>
+          <h3 class="mb-0">🧠 AhnLab Inc. (주)안랩</h3>
           <div class="subheading mb-2">
             <a href="https://www.ahnlab.com/ko/product/ot-ids"
               >XTD - OT 가시성 및 위협 탐지 모니터링 솔루션</a
@@ -41,11 +41,10 @@
           </p>
           <p class="mb-1">
             <b>주요 역할: </b>
-            <span>프론트엔드/백엔드 개발</span><br />
+            <span>프론트엔드 & 백엔드 개발</span><br />
             <b>주요 성과: </b>
             <span
-              >프론트엔드/백엔드 개발, 토폴로지 서비스 실시간 성능 개선 30%
-              향상</span
+              >실시간 토폴로지 서비스 성능 30% 개선</span
             >
           </p>
           <div class="tags">
@@ -54,14 +53,14 @@
           </div>
           <ul>
             <li>
-              Next.js + Node.js(Express + MariaDB) 기반 모니터링 솔루션 개발
+              Next.js + Node.js(Express + MariaDB) 기반 모니터링 솔루션 구축
             </li>
             <li>
               Cytoscape(Network Data Integration), Highcharts(Simply Visualize)
-              시각화 라이브러리를 통해 구현 구축
+              기반 데이터 시각화
             </li>
             <li>
-              tailwind, pnpm, turbo 등 라이브러리 도입, 트렌디한 프로젝트로 개선
+              Tailwind, pnpm, Turborepo 등 최신 프론트엔드 스택 도입
             </li>
           </ul>
           <details open>
@@ -80,18 +79,18 @@
           </div>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">2025. 04 ~</span>
+          <span class="text-primary">2025.04 ~ 현재</span>
         </div>
       </div>
       <div
         class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
       >
         <div class="resume-content">
-          <h3 class="mb-0">Ahnlab .Inc (주)안랩</h3>
+          <h3 class="mb-0">⚙️ AhnLab Inc. (주)안랩</h3>
           <div class="subheading mb-2">
             <a
               href="https://www.ahnlab.com/ko/product/cps-protection-management"
-              >ICM - CPS 보안 중앙 모니터링 및 통합 관리</a
+              >ICM - CPS 보안 중앙 모니터링 및 통합 관리 시스템</a
             >
           </div>
 
@@ -136,11 +135,10 @@
           <p class="mb-1">
             <b>주요 역할: </b>
             <span
-              >프론트엔드/백엔드 개발, 아키텍처 설계, Kubernetes 기반 배포
-              자동화</span
+              >풀스택 개발, 아키텍처 설계, DevOps 자동화</span
             ><br />
             <b>주요 성과: </b>
-            <span>서비스 무중단 배포, 실시간 데이터 동기화 성능 30% 향상</span>
+            <span>무중단 배포 / 실시간 데이터 동기화 성능 30% 향상</span>
           </p>
           <div class="tags">
             <span>#Vue.js</span> <span>#Node.js</span> <span>#Kubernetes</span>
@@ -148,13 +146,12 @@
           </div>
           <ul>
             <li>
-              Vue.js + Node.js(Express + PostgreSQL) 기반 통합 대시보드 개발
+              Vue.js + Node.js(Express + PostgreSQL) 기반 통합 대시보드 구축
             </li>
             <li>
-              Kubernetes(k3s) 기반 컨테이너 오케스트레이션 및 배포 파이프라인
-              구축
+              Kubernetes(k3s) 기반 컨테이너 오케스트레이션 및 배포 파이프라인 설계
             </li>
-            <li>실시간 모니터링 기능 및 데이터 시각화 구현</li>
+            <li>실시간 모니터링 및 데이터 비주얼라이제이션 구현</li>
           </ul>
           <details open>
             <summary>Architecture</summary>
@@ -172,7 +169,7 @@
           </div>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">2020. 03 ~</span>
+          <span class="text-primary">2020.03 ~ 2025.03</span>
         </div>
       </div>
 
@@ -181,7 +178,7 @@
         class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
       >
         <div class="resume-content">
-          <h3 class="mb-0">Fooding (주)열두달</h3>
+          <h3 class="mb-0">🍱 Fooding (주)열두달</h3>
           <div class="subheading mb-2">
             <a href="https://fooding.io/"
               >Fooding - 단체음식 배송 플랫폼 서비스</a
@@ -211,13 +208,11 @@
           <p class="mb-1">
             <b>주요 역할: </b>
             <span
-              >프론트엔드/백엔드 개발, 아키텍처 설계, ECS + Code PipeLine 기반
-              배포 자동화</span
+              >프론트/백엔드 개발, 아키텍처 설계</span
             ><br />
             <b>주요 성과: </b>
             <span
-              >프론트/백엔드 100% 개발, 알림/메일 서비스 개발, 서비스 무중단
-              배포</span
+              >ECS 기반 자동 배포, 알림·메일 서비스 개발</span
             >
           </p>
           <div class="tags">
@@ -226,13 +221,12 @@
           </div>
           <ul>
             <li>
-              Angular + Node.js(Express + MySQL + MongoDB) 기반 서비스 홈페이지
-              개발
+              Angular + Node.js(Express + MySQL) 기반 플랫폼 구축
             </li>
             <li>
-              AWS ECS 기반 컨테이너 오케스트레이션 및 배포 파이프라인 구축
+              AWS ECS 기반 CI/CD 파이프라인 설계
             </li>
-            <li>실시간 모니터링 기능 및 알림/메일 서비스 구현</li>
+            <li>실시간 모니터링 및 자동 알림 시스템 구현</li>
           </ul>
           <details open>
             <summary>Architecture</summary>
@@ -290,7 +284,7 @@
           </div>
         </div>
         <div class="resume-date text-md-right">
-          <span class="text-primary">2018. 10 ~ 2020. 03</span>
+          <span class="text-primary">2018.10 ~ 2020.03</span>
         </div>
       </div>
 
@@ -299,10 +293,10 @@
         class="resume-item d-flex flex-column flex-md-row justify-content-between"
       >
         <div class="resume-content">
-          <h3 class="mb-0">SECUPRIME (주)씨큐프라임</h3>
+          <h3 class="mb-0">🖥 SECUPRIME (주)씨큐프라임</h3>
           <div class="subheading mb-2">
             <a href="http://www.smartfranchise.co.kr/front/kiosk.php">
-              E-MORDER KIOSK - All-IN-ONE 무인 결제 키오스크
+              E-MORDER KIOSK - All-In-One 무인 결제 키오스크
             </a>
           </div>
           <p>
@@ -326,13 +320,11 @@
           <p class="mb-1">
             <b>주요 역할: </b>
             <span
-              >프론트엔드/백엔드 개발, 아키텍처 설계, PM2 기반 무중단
-              서비스</span
+              >풀스택 개발, 시스템 설계</span
             ><br />
             <b>주요 성과: </b>
             <span
-              >프론트/백엔드 개발(100%), Pos 기기 연동으로 재고 및 정산 통합,
-              On-Premise(온프레미스)의 설치형
+              >POS 연동 재고·정산 자동화, 온프레미스 설치형 구축
             </span>
           </p>
           <div class="tags">
@@ -340,12 +332,11 @@
             <span>#MariaDB</span>
           </div>
           <ul>
-            <li>Express.js(EJS + MySQL) 기반 Kiosk 서비스 개발(100%)</li>
-            <li>Serial 통신으로 결제 모듈(카드리더기) 연동 결제 지원</li>
+            <li>Express(EJS + MySQL) 기반 Kiosk 서비스 개발</li>
+            <li>카드리더기·POS기 Serial 통신 결제 모듈 연동</li>
             <li>Pos 기기 연동으로 재고 및 정산 통합</li>
             <li>
-              On-Premise(온프레미스)의 설치형 타입으로 타겟보드 설치하여 제품
-              제공
+              설치형(On-Premise) 제품 제공 및 무중단 서비스 운영
             </li>
           </ul>
           <details open>

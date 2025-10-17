@@ -5,6 +5,8 @@
   >
     <div class="w-100">
       <h2 class="mb-5">Project</h2>
+
+      <!-- TypeScript Express Starter -->
       <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/typescript-express-starter">
           <img
@@ -14,24 +16,47 @@
         </a>
 
         <div class="project-info">
-          <b>TypeScript Express Starter</b>
           <p>
             📘 Express와 TypeScript 기반의 Node.js 프로젝트 스타터 패키지<br />
-            ⭐️ 2.8k, 🍴 438
+            ⭐️ 2.9k · 🍴 437
           </p>
+          
+          <ul>
+            <li>TypeScript + Express 기반의 Node.js 스타터 패키지.</li>
+            <li>실무 환경에 즉시 적용 가능한 구조와 테스트/배포 자동화를 제공합니다.</li>
+          </ul>
+
           <div class="tags">
             <span>#TypeScript</span>
-            <span>#Express</span>
             <span>#Backend</span>
-            <span>#3K Star</span>
           </div>
-          <ul>
-            <li>간결한 구조, 빠른 프로젝트 세팅 지원</li>
-            <li>테스트/배포 자동화 등 실무 환경에 바로 적용 가능</li>
-          </ul>
         </div>
       </div>
 
+      <!-- Fynk -->
+      <div class="d-flex flex-column justify-content-between mb-5">
+        <a href="https://github.com/ljlm0402/fynk">
+          <img
+            align="center"
+            src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=fynk"
+          />
+        </a>
+
+        <div class="project-info">
+          <p>
+            💗 자동 중복 제거 및 정규화 캐시를 제공하는 가장 빠른 HTTP 클라이언트.<br />
+            🌐 자동 요청 중복 제거, 통합 캐싱, 낙관적 업데이트, SSE 라이브 패치를 특징으로 하는 초고성능 반응형 HTTP 클라이언트.
+          </p>
+
+          <div class="tags">
+            <span>#HTTP</span>
+            <span>#Cache</span>
+            <span>#Reactive</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PackMate -->
       <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/packmate">
           <img
@@ -40,29 +65,20 @@
           />
         </a>
         <div class="project-info">
-          <b>PackMate</b>
           <p>
-            ♻️ Node.js 프로젝트 종속성을 관리, 업데이트 및 정리하는 최신 CLI
-            도구.<br />
-            🏗️ npm-check, npm-check-updates 기능을 통합하여 종속성 관리를 자동화
-            패키지
+            🤖 Node.js 프로젝트의 종속성 관리, 업데이트, 정리를 자동화하는 CLI 도구.<br />
+            🏗️ npm-check / npm-check-updates 기능을 통합하여 Dependency 관리의 새로운 표준을 제시합니다.
           </p>
+          
           <div class="tags">
             <span>#NPM</span>
             <span>#Management</span>
             <span>#CLI</span>
           </div>
-          <ul>
-            <li>
-              오래된 종속성을 감지 하고 권장되는(주요/부) 버전으로 업데이트를
-              제안
-            </li>
-            <li>사용되지 않는 패키지를 찾아 제거</li>
-            <li>미설치 패키지 탐지 등 종속성 관리</li>
-          </ul>
         </div>
       </div>
 
+      <!-- Automatic GitHub Tool -->
       <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/auto-github-tool">
           <img
@@ -71,28 +87,20 @@
           />
         </a>
         <div class="project-info">
-          <b>Automatic GitHub Tool</b>
           <p>
-            🤖 GitHub 이슈 처리, 브랜치 생성, PR 제출을 자동화하는 CLI 도구.<br />
-            ⚙️ GitHub Issue를 기반으로 브랜치 관리와 풀 리퀘스트(PR) 생성을
-            자동화 패키지
+            🗃️ GitHub 이슈 관리, 브랜치 생성, PR 자동화를 지원하는 CLI 툴.<br />
+            ⚙️ 개발자의 워크플로우를 간소화하고 생산성을 극대화합니다.
           </p>
+
           <div class="tags">
             <span>#GitHub</span>
-            <span>#Issue</span>
-            <span>#Branch</span>
-            <span>#Pull Request</span>
+            <span>#Automation</span>
+            <span>#CLI</span>
           </div>
-          <ul>
-            <li>
-              이슈 목록 조회 / 이슈 생성 / 이슈 기반 브랜치 생성 / PR 생성 /
-              빠른 프로젝트 세팅 지원
-            </li>
-            <li>개발자의 생산성을 향상시키고, 브랜치 관리의 일관성을 유지</li>
-          </ul>
         </div>
       </div>
 
+      <!-- ZENON -->
       <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/zenon">
           <img
@@ -102,25 +110,20 @@
         </a>
 
         <div class="project-info">
-          <b>ZENON</b>
           <p>
-            🦉 Vue 3를 위한 미니멀리스트적이고 Zustand에서 영감을 받은 상태 관리
-            라이브러리.<br />
-            🦦 Zustand 99% DX 제공
+            🦉 Vue 3용 미니멀리스트 상태 관리 라이브러리.<br />
+            🦦 Zustand에서 영감을 받아 DX를 99% 재현하며, 단일 파일 기반 Store 설계를 지원합니다.
           </p>
+
           <div class="tags">
             <span>#Vue3</span>
+            <span>#StateManagement</span>
             <span>#Zustand</span>
-            <span>#Persist</span>
-            <span>#Logger</span>
           </div>
-          <ul>
-            <li>True 1 - File store, 학습 곡선 없음</li>
-            <li>플러그형 미들웨어 지원</li>
-          </ul>
         </div>
       </div>
 
+      <!-- Pinia Plugin Logger -->
       <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/pinia-plugin-logger">
           <img
@@ -130,25 +133,21 @@
         </a>
 
         <div class="project-info">
-          <b>Pinia Plugin Logger</b>
           <p>
-            🍍 Pinia 로깅 플러그인.<br />
-            🔩 Pinia 라이브러리 플러그인 모듈
+            🍍 Pinia를 위한 액션 로깅 플러그인.<br />
+            🔩 명확한 가시성과 타임스탬프 기반 로그로 디버깅 효율을 높입니다.
           </p>
+
           <div class="tags">
-            <span>#Vue</span>
+            <span>#Vue3</span>
             <span>#Pinia</span>
             <span>#Plugin</span>
             <span>#Logger</span>
           </div>
-          <ul>
-            <li>Pinia를 위한 간단하고 유연한 액션 로거</li>
-            <li>로그 제목에 이름과 타임스탬프를 저장</li>
-            <li>명확한 가시성을 갖춘 오류 로깅</li>
-          </ul>
         </div>
       </div>
 
+      <!-- Vuex State Sync -->
       <div class="d-flex flex-column justify-content-between mb-5">
         <a href="https://github.com/ljlm0402/vuex-state-storage-sync">
           <img
@@ -158,20 +157,17 @@
         </a>
 
         <div class="project-info">
-          <b>Vuex State Sync</b>
           <p>
-            ⛓ Vuex 상태 및 저장소 동기화 모듈.<br />
-            🖇️ Vuex를 위한 Store 스토리지 저장
+            ⛓ Vuex 상태를 스토리지와 동기화하는 간결한 유틸리티.<br />
+            🖇️ 로컬/세션 스토리지 동기화를 자동화하여 상태 관리의 복잡성을 줄입니다.
           </p>
+
           <div class="tags">
             <span>#Vue</span>
             <span>#Vuex</span>
             <span>#Storage</span>
             <span>#Sync</span>
           </div>
-          <ul>
-            <li>간결한 구조, 빠른 프로젝트 세팅 지원</li>
-          </ul>
         </div>
       </div>
     </div>

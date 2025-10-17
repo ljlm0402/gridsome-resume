@@ -7,15 +7,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ⬇️ Checkout source code
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
 
       - name: ⎔ Setup nodejs
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: 14
+          node-version: lts/*
+          registry-url: https://registry.npmjs.org/
 
-      - name: 🏗 Install npm
-        run: npm install -g surge & npm install
+      - name: 📦 Install npm
+        run: npm ci
+
+      - name: 🏗 Global Install surge
+        run: npm install -g surge
 
       - name: 🏭 Build npm
         run: npm run build

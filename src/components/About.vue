@@ -9,19 +9,20 @@
         <a href="mailto:ljlm0402@gmail.com">ljlm0402@gmail.com</a>
       </div>
       <p class="lead mb-3">
-        <span style="color: #eed81a">JavaScript</span>,
-        <span style="color: #2f74bf">TypeScript</span> 기반의 개발을 전문으로
-        합니다.
+        저는 <span style="color: #eed81a">JavaScript</span>와 <span style="color: #2f74bf">TypeScript</span> 기반의 개발을 전문으로 하는 엔지니어입니다.
         <img src="@/assets/images/wave.gif" width="30px" />
       </p>
+      <p>
+        단순히 코드를 작성하는 것에 그치지 않고, Best Practice를 통해 최고의 퍼포먼스를 구현하는 것을 목표로 합니다.
+      </p>
       <p class="lead mb-3" style="font-weight: bold">
-        🚀 Best Practices로 최고의 퍼포먼스를 추구하는 개발자<br />
-        🛠️ 관심분야: Architecture, Clean Code, Design Pattern
+        🚀 퍼포먼스 중심의 실용적 개발자<br />
+        🛠️ 관심분야: Architecture · Clean Code · Design Pattern
       </p>
       <p class="lead mb-4">
-        가독성, 성능, 트렌드를 핵심 가치로 실용적이고 효율적인 코드를
-        지향합니다.<br />
-        협업과 소통, 성장에 항상 열려 있습니다.
+      가독성과 성능, 그리고 트렌드를 핵심 가치로 두고 <br />
+      ‘읽기 쉽고 유지보수하기 좋은 코드’, ‘유연한 구조’, ‘최신 기술 트렌드의 합리적 도입’을 지향합니다. <br />
+      항상 협업과 성장에 열린 마음으로, 함께 발전하는 개발 문화를 만들어갑니다.
       </p>
       <p class="lead mb-5">
         포트폴리오 사이트 저장소 :
