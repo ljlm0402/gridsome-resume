@@ -1,5 +1,13 @@
 // Global styling - Modern Glassmorphism Theme
 
+html {
+  background: linear-gradient(135deg, #FDB750 0%, #FFCC4D 50%, #FFE179 100%);
+  background-attachment: fixed;
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  min-height: 100vh;
+}
+
 body {
   @include body-font;
   padding: 0 !important;
@@ -254,6 +262,11 @@ p.lead {
 
 // Dark Theme - Agumon Night Mode
 html.dark-theme {
+  background: linear-gradient(135deg, #2C1810 0%, #4A2C1A 50%, #5C3A24 100%);
+  background-attachment: fixed;
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+
   body {
     background: linear-gradient(135deg, #2C1810 0%, #4A2C1A 50%, #5C3A24 100%);
     color: rgba(255, 255, 255, 0.9);
