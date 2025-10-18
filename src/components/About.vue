@@ -76,6 +76,7 @@
             >
               <img
                 src="https://img.shields.io/static/v1?label=gridsome-resume&message=%20&color=FDB750&logo=github&logoColor=white&labelColor=FFCC4D"
+                loading="lazy"
               />
             </a>
           </div>

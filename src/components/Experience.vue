@@ -21,11 +21,26 @@
         </div>
 
         <div class="tech-badges">
-          <img src="@/assets/images/stacks/typescript.png" alt="TypeScript" class="tech-badge" />
-          <img src="@/assets/images/stacks/react.png" alt="React" class="tech-badge" />
-          <img src="@/assets/images/stacks/nextjs.png" alt="Next.js" class="tech-badge" />
-          <img src="@/assets/images/stacks/nodejs.png" alt="Node.js" class="tech-badge" />
-          <img src="@/assets/images/stacks/mariadb.png" alt="MariaDB" class="tech-badge" />
+          <picture>
+            <source srcset="@/assets/images/stacks/typescript.webp" type="image/webp">
+            <img src="@/assets/images/stacks/typescript.png" alt="TypeScript" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/react.webp" type="image/webp">
+            <img src="@/assets/images/stacks/react.png" alt="React" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/nextjs.webp" type="image/webp">
+            <img src="@/assets/images/stacks/nextjs.png" alt="Next.js" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/nodejs.webp" type="image/webp">
+            <img src="@/assets/images/stacks/nodejs.png" alt="Node.js" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/mariadb.webp" type="image/webp">
+            <img src="@/assets/images/stacks/mariadb.png" alt="MariaDB" class="tech-badge" loading="lazy" />
+          </picture>
         </div>
 
         <div class="highlights">
@@ -54,8 +69,14 @@
 
         <details class="architecture-details">
           <summary>Architecture & Preview</summary>
-          <img src="@/assets/images/architecture/xtd-arch.png" alt="XTD Architecture" class="architecture-img" />
-          <img src="@/assets/images/experience/xtd.png" alt="XTD Preview" class="preview-img" />
+          <picture>
+            <source srcset="@/assets/images/architecture/xtd-arch.webp" type="image/webp">
+            <img src="@/assets/images/architecture/xtd-arch.png" alt="XTD Architecture" class="architecture-img" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/experience/xtd.webp" type="image/webp">
+            <img src="@/assets/images/experience/xtd.png" alt="XTD Preview" class="preview-img" loading="lazy" />
+          </picture>
         </details>
       </div>
 
@@ -74,12 +95,30 @@
         </div>
 
         <div class="tech-badges">
-          <img src="@/assets/images/stacks/typescript.png" alt="TypeScript" class="tech-badge" />
-          <img src="@/assets/images/stacks/vue.png" alt="Vue.js" class="tech-badge" />
-          <img src="@/assets/images/stacks/nodejs.png" alt="Node.js" class="tech-badge" />
-          <img src="@/assets/images/stacks/postgresql.png" alt="PostgreSQL" class="tech-badge" />
-          <img src="@/assets/images/stacks/kubernetes.png" alt="Kubernetes" class="tech-badge" />
-          <img src="@/assets/images/stacks/docker.png" alt="Docker" class="tech-badge" />
+          <picture>
+            <source srcset="@/assets/images/stacks/typescript.webp" type="image/webp">
+            <img src="@/assets/images/stacks/typescript.png" alt="TypeScript" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/vue.webp" type="image/webp">
+            <img src="@/assets/images/stacks/vue.png" alt="Vue.js" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/nodejs.webp" type="image/webp">
+            <img src="@/assets/images/stacks/nodejs.png" alt="Node.js" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/postgresql.webp" type="image/webp">
+            <img src="@/assets/images/stacks/postgresql.png" alt="PostgreSQL" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/kubernetes.webp" type="image/webp">
+            <img src="@/assets/images/stacks/kubernetes.png" alt="Kubernetes" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/docker.webp" type="image/webp">
+            <img src="@/assets/images/stacks/docker.png" alt="Docker" class="tech-badge" loading="lazy" />
+          </picture>
         </div>
 
         <div class="highlights">
@@ -108,8 +147,14 @@
 
         <details class="architecture-details">
           <summary>Architecture & Preview</summary>
-          <img src="@/assets/images/architecture/icm-arch.png" alt="ICM Architecture" class="architecture-img" />
-          <img src="@/assets/images/experience/icm.png" alt="ICM Preview" class="preview-img" />
+          <picture>
+            <source srcset="@/assets/images/architecture/icm-arch.webp" type="image/webp">
+            <img src="@/assets/images/architecture/icm-arch.png" alt="ICM Architecture" class="architecture-img" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/experience/icm.webp" type="image/webp">
+            <img src="@/assets/images/experience/icm.png" alt="ICM Preview" class="preview-img" loading="lazy" />
+          </picture>
         </details>
       </div>
 
@@ -128,12 +173,30 @@
         </div>
 
         <div class="tech-badges">
-          <img src="@/assets/images/stacks/typescript.png" alt="TypeScript" class="tech-badge" />
-          <img src="@/assets/images/stacks/angular.png" alt="Angular" class="tech-badge" />
-          <img src="@/assets/images/stacks/nodejs.png" alt="Node.js" class="tech-badge" />
-          <img src="@/assets/images/stacks/mysql.png" alt="MySQL" class="tech-badge" />
-          <img src="@/assets/images/stacks/aws.png" alt="AWS" class="tech-badge" />
-          <img src="@/assets/images/stacks/docker.png" alt="Docker" class="tech-badge" />
+          <picture>
+            <source srcset="@/assets/images/stacks/typescript.webp" type="image/webp">
+            <img src="@/assets/images/stacks/typescript.png" alt="TypeScript" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/angular.webp" type="image/webp">
+            <img src="@/assets/images/stacks/angular.png" alt="Angular" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/nodejs.webp" type="image/webp">
+            <img src="@/assets/images/stacks/nodejs.png" alt="Node.js" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/mysql.webp" type="image/webp">
+            <img src="@/assets/images/stacks/mysql.png" alt="MySQL" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/aws.webp" type="image/webp">
+            <img src="@/assets/images/stacks/aws.png" alt="AWS" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/docker.webp" type="image/webp">
+            <img src="@/assets/images/stacks/docker.png" alt="Docker" class="tech-badge" loading="lazy" />
+          </picture>
         </div>
 
         <div class="highlights">
@@ -162,7 +225,10 @@
 
         <details class="architecture-details">
           <summary>Architecture & Demo Videos</summary>
-          <img src="@/assets/images/architecture/fooding.png" alt="Fooding Architecture" class="architecture-img" />
+          <picture>
+            <source srcset="@/assets/images/architecture/fooding.webp" type="image/webp">
+            <img src="@/assets/images/architecture/fooding.png" alt="Fooding Architecture" class="architecture-img" loading="lazy" />
+          </picture>
           <div class="video-grid">
             <iframe src="https://www.youtube.com/embed/jQ1YNnLlUKs" class="video-frame" allowfullscreen></iframe>
             <iframe src="https://www.youtube.com/embed/jeXTYYE-4JU" class="video-frame" allowfullscreen></iframe>
@@ -187,10 +253,22 @@
         </div>
 
         <div class="tech-badges">
-          <img src="@/assets/images/stacks/javascript.png" alt="JavaScript" class="tech-badge" />
-          <img src="@/assets/images/stacks/nodejs.png" alt="Node.js" class="tech-badge" />
-          <img src="@/assets/images/stacks/mariadb.png" alt="MariaDB" class="tech-badge" />
-          <img src="@/assets/images/stacks/raspberry-pi.png" alt="Raspberry Pi" class="tech-badge" />
+          <picture>
+            <source srcset="@/assets/images/stacks/javascript.webp" type="image/webp">
+            <img src="@/assets/images/stacks/javascript.png" alt="JavaScript" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/nodejs.webp" type="image/webp">
+            <img src="@/assets/images/stacks/nodejs.png" alt="Node.js" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/mariadb.webp" type="image/webp">
+            <img src="@/assets/images/stacks/mariadb.png" alt="MariaDB" class="tech-badge" loading="lazy" />
+          </picture>
+          <picture>
+            <source srcset="@/assets/images/stacks/raspberry-pi.webp" type="image/webp">
+            <img src="@/assets/images/stacks/raspberry-pi.png" alt="Raspberry Pi" class="tech-badge" loading="lazy" />
+          </picture>
         </div>
 
         <div class="highlights">
@@ -219,7 +297,10 @@
 
         <details class="architecture-details">
           <summary>Architecture & Demo</summary>
-          <img src="@/assets/images/architecture/secuprime.png" alt="SECUPRIME Architecture" class="architecture-img" />
+          <picture>
+            <source srcset="@/assets/images/architecture/secuprime.webp" type="image/webp">
+            <img src="@/assets/images/architecture/secuprime.png" alt="SECUPRIME Architecture" class="architecture-img" loading="lazy" />
+          </picture>
           <div class="video-grid">
             <iframe src="https://www.youtube.com/embed/64V7ATPeeyM" class="video-frame" allowfullscreen></iframe>
           </div>

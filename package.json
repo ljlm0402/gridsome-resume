@@ -31,5 +31,15 @@
   "bugs": {
     "url": "https://github.com/ljlm0402/gridsome-resume/issues"
   },
-  "homepage": "https://kyungmin-resume.surge.sh"
+  "homepage": "https://kyungmin-resume.surge.sh",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "cwebp-bin": "^8.0.0",
+    "gridsome-plugin-purgecss": "^1.0.12",
+    "imagemin": "^9.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-webp": "^8.0.0",
+    "sharp": "^0.34.4"
+  }
 }

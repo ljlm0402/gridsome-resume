@@ -43,5 +43,29 @@ module.exports = {
         }
       }
     }
+  },
+  
+  // 성능 최적화 설정
+  chainWebpack: (config, { isServer }) => {
+    // 클라이언트 빌드에만 splitChunks 적용
+    if (!isServer) {
+      config.optimization.splitChunks({
+        chunks: 'all',
+        cacheGroups: {
+          vendor: {
+            test: /[\\/]node_modules[\\/]/,
+            name: 'vendors',
+            priority: 10,
+            enforce: true
+          },
+          common: {
+            minChunks: 2,
+            priority: 5,
+            reuseExistingChunk: true,
+            enforce: true
+          }
+        }
+      })
+    }
   }
 }

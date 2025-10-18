@@ -13,6 +13,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=typescript-express-starter&theme=tokyonight"
             alt="TypeScript Express Starter"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -36,6 +37,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=fynk&theme=tokyonight"
             alt="Fynk"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -59,6 +61,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=packmate&theme=tokyonight"
             alt="PackMate"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -82,6 +85,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=zenon&theme=tokyonight"
             alt="Zenon"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -105,6 +109,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=pinia-plugin-logger&theme=tokyonight"
             alt="Pinia Plugin Logger"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -128,6 +133,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=vuex-state-storage-sync&theme=tokyonight"
             alt="Vuex State Storage Sync"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -151,6 +157,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=auto-github-tool&theme=tokyonight"
             alt="Auto GitHub Tool"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -174,6 +181,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=tsghc&theme=tokyonight"
             alt="tsghc"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -197,6 +205,7 @@
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=object-querybuilder&theme=tokyonight"
             alt="Object QueryBuilder"
             class="github-card"
+            loading="lazy"
           />
         </a>
         <div class="project-content">
@@ -373,6 +382,7 @@
           <img
             align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=typescript-express-starter"
+            loading="lazy"
           />
         </a>
 
@@ -400,6 +410,7 @@
           <img
             align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=fynk"
+            loading="lazy"
           />
         </a>
 
@@ -423,6 +434,7 @@
           <img
             align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=packmate"
+            loading="lazy"
           />
         </a>
         <div class="project-info">
@@ -445,6 +457,7 @@
           <img
             align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=auto-github-tool"
+            loading="lazy"
           />
         </a>
         <div class="project-info">
@@ -467,6 +480,7 @@
           <img
             align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=zenon"
+            loading="lazy"
           />
         </a>
 
@@ -490,6 +504,7 @@
           <img
             align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=pinia-plugin-logger"
+            loading="lazy"
           />
         </a>
 
@@ -514,6 +529,7 @@
           <img
             align="center"
             src="https://github-readme-stats.vercel.app/api/pin/?username=ljlm0402&repo=vuex-state-storage-sync"
+            loading="lazy"
           />
         </a>
 
